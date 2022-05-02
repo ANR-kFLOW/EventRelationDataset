@@ -1,0 +1,38 @@
+<?xml version="1.0" ?>
+<TimeML
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:noNamespaceSchemaLocation="../../dtd/timeml_1.2.1.xsd">
+
+<DOCNO> WSJ891025-0157 </DOCNO>
+<DD> = 891025 </DD>
+<AN> 891025-0157. </AN>
+<HL> Advanced Medical Makes Purchase </HL>
+<DD> <TIMEX3 tid="t11" type="DATE" value="1989-10-25" temporalFunction="false" functionInDocument="CREATION_TIME">10/25/89</TIMEX3> </DD>
+<SO> WALL STREET JOURNAL (J) </SO>
+<CO> AMA HENG </CO>
+<IN> TENDER OFFERS, MERGERS, ACQUISITIONS (TNM)
+MEDICAL AND BIOTECHNOLOGY (MTC) </IN>
+<DATELINE> SAN FRANCISCO  </DATELINE>
+<TEXT>
+   <s>Advanced <ENAMEX TYPE="ORGANIZATION">Medical Technologies Inc.</ENAMEX> <EVENT eid="e2" class="REPORTING" stem="say">said</EVENT> it <EVENT eid="e3" class="OCCURRENCE" stem="purchase">purchased</EVENT> <NUMEX TYPE="PERCENT">93%</NUMEX> of a unit of <ENAMEX TYPE="ORGANIZATION">Henley Group Inc. 
+
+   Advanced Medical</ENAMEX> <EVENT eid="e4" class="OCCURRENCE" stem="pay">paid</EVENT> <NUMEX TYPE="MONEY">$106 million</NUMEX> in cash for its share in a unit of <ENAMEX TYPE="ORGANIZATION">Henley</ENAMEX>'s <ENAMEX TYPE="ORGANIZATION">Fisher Scientific</ENAMEX> subsidiary.</s> 
+<s>The unit makes intravenous pumps used by hospitals and <EVENT eid="e9" class="OCCURRENCE" stem="have">had</EVENT> more than <NUMEX TYPE="MONEY">$110 million</NUMEX> in <EVENT eid="e30" class="OCCURRENCE" stem="sale">sales</EVENT> <TIMEX3 tid="t31" type="DATE" value="1988" temporalFunction="true" functionInDocument="NONE" anchorTimeID="t11">last year</TIMEX3>, according to <ENAMEX TYPE="ORGANIZATION">Advanced Medical</ENAMEX>.</s> 
+
+</TEXT>
+
+<MAKEINSTANCE eventID="e2" eiid="ei1989" tense="PAST" aspect="NONE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e3" eiid="ei1990" tense="PAST" aspect="NONE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e4" eiid="ei1991" tense="PAST" aspect="NONE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e9" eiid="ei1992" tense="PAST" aspect="PERFECTIVE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e30" eiid="ei1993" tense="NONE" aspect="NONE" polarity="POS" pos="NOUN"/>
+<TLINK lid="l1" relType="SIMULTANEOUS" eventInstanceID="ei1992" relatedToEventInstance="ei1993" origin="USER"/>
+<TLINK lid="l2" relType="BEFORE" eventInstanceID="ei1991" relatedToTime="t11" origin="USER"/>
+<TLINK lid="l3" relType="BEFORE" eventInstanceID="ei1989" relatedToTime="t11" origin="USER"/>
+<TLINK lid="l4" relType="BEFORE" eventInstanceID="ei1992" relatedToTime="t11" origin="USER"/>
+<TLINK lid="l5" relType="DURING" eventInstanceID="ei1993" relatedToTime="t31" origin="USER"/>
+<SLINK lid="l6" relType="EVIDENTIAL" eventInstanceID="ei1989" subordinatedEventInstance="ei1990"/>
+
+
+
+</TimeML>

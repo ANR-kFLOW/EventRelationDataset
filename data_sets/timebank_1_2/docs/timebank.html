@@ -1,0 +1,370 @@
+<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML//EN">
+<html> 
+<head>
+<title>TimeBank 1.2 Documentation</title>
+<style>
+<!--
+body { 	
+  font-family: Verdana, Arial, Helvetica, sans-serif;
+  background-color: #fafad2; 
+  padding: 5px; 
+  font-size: 14px; 
+  line-height: 17px;
+}
+h1 { 
+  color: #a52a2a; 
+  margin-bottom: 25px; 
+}
+h2 { 
+  color: #a52a2a; 
+  margin-top: 25px;
+  font-size: 18px; 
+}
+li { 
+  padding: 2px; 
+}
+val { 
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 15px; 
+}
+.authors { 
+  font-size: 16px;
+  line-height: 24px; 
+}
+-->
+</style>
+</head>
+
+<body>
+
+<h1>TimeBank 1.2 Documentation</h1>
+
+<p class="authors">
+James Pustejovsky, Jessica Littman, Roser Saur&iacute;, Marc Verhagen
+<br/> 
+Brandeis University, January 2006.
+</p>
+
+
+<h2>Contents</h2>
+
+<ol>
+<li><a href=#intro>Introduction</a></li>
+<li><a href=#timeml>Overview of TimeML</a></li>
+<li><a href=#stats>TimeBank Statistics</a></li>
+<li><a href=#sources>TimeBank Sources</a></li>
+<li><a href=#anno>Annotation Effort</a></li>
+<li><a href=#val>Validation</a></li>
+<li><a href=#distribution>Contents of this Distribution</a></li>
+<li><a href=#future>Future Work</a></li>
+<li><a href=#contrib>Contributors</a></li>
+<li><a href=#copy>Copyright Notice</a></li>
+</ol>
+
+
+<p><a name="intro"></a></p>
+<h2>Introduction</h2>
+
+<p>The TimeBank Corpus contains 183 news articles that have been
+annotated with temporal information, adding events, times and temporal
+links between events and times. The annotation follows the TimeML
+1.2.1 specification. This file includes a brief discussion of TimeML
+as well as a description of how TimeBank was created.</p>
+
+<p>The most recent information on TimeML is always available
+at <a href="http://www.timeml.org">www.timeml.org.</a></p>
+
+
+<p><a name="timeml"></a></p>
+<h2>Overview of TimeML</h2>
+
+<p>TimeML aims to capture and represent temporal information.  This is
+accomplished using four primary tag types: TIMEX3 for temporal
+expressions, EVENT for temporal events, SIGNAL for temporal signals,
+and LINK for representing relationships.  For a detailed description
+of TimeML, see the TimeML 1.2.1 <a
+href="timeml_specs_1.2.1.html">Specification</a> and <a
+href="timeml_annguide_1.2.1.pdf">Guidelines</a>.  Here, we give a
+summary of each tag.</p>
+
+<p><b>TIMEX3</b> &#8212; This tag is used to capture dates, times,
+durations, and sets of dates and times.  All TIMEX3 tags include a
+type and a value along with some other possible attributes. The value
+is given according to the ISO 8601 standard. The TIMEX3 tag allows
+specification of a tempral anchor. This facilitates the use of
+temporal functions to calculate the value of an underspecified
+temporal expression.  For example, an article might include a document
+creation time such as "January 3, 2006".  Later in the article, the
+temporal expression "today" may occur.  By anchoring the TIMEX3 for
+"today" to the document creation time, we can determine the exact
+value of the TIMEX3.</p>
+
+<p><b>EVENT</b> &#8212; The EVENT tag is used to annotate those
+elements in a text that mark the semantic events described by it. Any
+event that can be temporally anchored or ordered is captured with this
+tag.  An EVENT includes a class attribute with values such
+as <val>occurrence</val>, <val>state</val>, or <val>reporting</val>.
+The class of an EVENT may indicate what relationships the event
+participates in.  In addition to the EVENT tag, events are also
+annotated with one or more MAKEINSTANCE tags that include information
+about a particular instance of the event. This includes part of
+speech, tense, aspect, modality, and polarity. When an event
+participates in a relationship, it is actually the event instance that
+is referenced.  This is to allow for statements such as "John taught
+on Monday but not on Tuesday."  Here, there are actually two instances
+of the teaching-event: one that has a positive polarity and one that
+is negative.  Further, each instance participates in its own temporal
+relationship with respect to "Monday" and "Tuesday".<p>
+
+<p><b>SIGNAL</b> &#8212; The SIGNAL tag is used to annotate temporal
+function words such as "after", "during", and "when".  These signals
+are then used in the representation of a temporal relationship.</p>
+
+<p>The following three tags are link tags. They capture temporal,
+subordination, and aspectual relationships found in the text. These
+tags do not consume any actual text, but they do relate the three
+tag types above to each other.</p>
+
+<p><b>TLINK</b> &#8212; Temporal links are represented with a TLINK
+tag.  A TLINK can temporally relate two temporal expressions, two
+event instances, or a temporal expression and an event instance.
+Along with an identification marker for each of these two elements, a
+relation type is given such as <val>before</val>, <val>includes</val>,
+or <val>ended_by</val>.  When a signal is present that helps to define
+the relationship, an ID for the SIGNAL is given as well.</p>
+
+<p><b>SLINK</b> &#8212; This tag is used to capture subordination
+relationships that involve event modality, evidentiality, and
+factuality.  An SLINK includes an event instance ID for the
+subordinating event and an event instance ID for the subordinated
+event.  Possible relation types for SLINK
+include <val>modal</val>, <val>evidential</val>,
+and <val>factive</val>.  An SLINK will typically not include a signal
+ID unless it has the relation type conditional.  Three specific EVENT
+classes interact with SLINK:
+<val>reporting</val>, <val>i_state</val>, and <val>i_action</val>.</p>
+
+<p><b>ALINK</b> &#8212; An aspectual connection between two event
+instances is represented with ALINK.  As with SLINK, this tag includes
+two event instance IDs, one that introduces the ALINK and one that is
+the event argument to that event. The introducing event has the
+class <val>aspectual</val>. Some possible relation types for ALINK are
+<val>initiates</val>, <val>terminates</val>,
+and <val>continues</val>.</p>
+
+
+
+<p><a name="stats"></a></p>
+<h2>TimeBank Statistics</h2>
+
+TimeBank 1.2 contains 183 articles with just over 61,000
+non-punctuation tokens. The count for each TimeML tag is listed below:
+
+<blockquote>
+<table cellpadding="3pt">
+<tr>
+  <td>EVENT</td>
+  <td align="right" width="100pt">7935</td>
+</tr>
+<tr>
+  <td>MAKEINSTANCE</td>
+  <td align="right">7940</td>
+</tr>
+<tr>
+  <td>TIMEX3</td>
+  <td align="right">1414</td>
+</tr>
+<tr>
+  <td>SIGNAL</td>
+  <td align="right">688</td>
+</tr>
+<tr>
+  <td>ALINK</td>
+  <td align="right">265</td>
+</tr>
+<tr>
+  <td>SLINK</td>
+  <td align="right">2932</td>
+</tr>
+<tr>
+  <td>TLINK</td>
+  <td align="right">6418</td>
+</tr>
+<tr>
+  <td colspan="2"><hr/></td>
+</tr>
+<tr>
+  <td>Total</td>
+  <td align="right">27592</td>
+</tr>
+</table>
+</blockquote>
+
+
+<p><a name="sources"></a></p>
+<h2>TimeBank Sources</h2>
+
+<p>The TimeBank sources come from a variety of news
+reports.  Specifically, articles come from the Automatic Content
+Extraction (ACE) program and PropBank (TreeBank2) texts.  Those coming
+from ACE come from transcribed broadcast news from the following
+sources: ABC, CNN, PRI, and VOA, and newswire from AP and NYT.
+PropBank supplied articles from the Wall Street Journal.</p>
+
+<p>These particular sources were chosen because they offered text rich
+with temporal information both in the form of temporal expressions and
+events that could be anchored or ordered in time.</p>
+
+
+<p><a name="anno"></a></p>
+<h2>Annotation Effort</h2>
+
+<p>The annotation of TimeBank has been a multi-step process.  In the
+first phase, five annotators with varying backgrounds in linguistics
+took part.  In addition to their annotation work, each participated in
+the development of the TimeML annotation scheme.  This phase of the
+annotation took place during several annotation-intensive
+weeks. Throughout this time, the annotators met to discuss their work
+so that they could achieve a high level of annotator agreement.</p>
+
+<p>The annotation of each document during this phase of the effort
+began with a preprocessing step.  This involved the tagging of some
+events and signals.  When possible, preprocessing also attempted to
+supply the class, tense, and aspect of the tagged events.  After
+preprocessing, one of the five annotators completed the annotation of
+the document including a check of the output from the preprocessing
+step.</p>
+
+<p>During this phase of the annotation effort, TimeML was still under
+development.  Subsequent phases of annotation involved updating this
+early version of TimeBank to the current TimeML specification, version
+1.2.1.  This has been done automatically where possible and manually
+where needed.</p>
+
+<p>The most recent phase of the TimeBank development involved four
+annotators who have all previously participated in some TimeML
+annotation and are intimately familiar with the latest specification.
+Each annotator focused on a specific set of TimeML tags and used the
+
+<a href="http://www.timeml.org/site/timebank/browser.html"
+target="_blank">TimeBank browser</a>
+
+to check whether the annotation of his or her tags is accurate and
+complete.  This current release of TimeBank reflects this work.<p>
+
+
+<p><a name="val"></a></p>
+<h2>Validation</h2>
+
+TimeBank 1.2 has been validated against version 1.2.1 of the Document
+Type Definition and XML Schema. Validity checking against the DTD was
+performed using the Perl XML::Checker::Parser module, available as
+part of XML-Checker-0.13 from 
+
+<a href="http://www.cpan.org/" target="_blank">www.cpan.org</a>. 
+
+The XML schema were applied using the Xerces Java Parser, version 1.4.4,
+available at
+
+<a href="http://xerces.apache.org/" target="_blank">xerces.apache.org</a>.
+
+Please refer to the readme file in the validation directory for more
+information.
+
+
+<p><a name="distribution"></a></p>
+<h2>Contents of this Distribution</h2>
+
+<p>timebank_1.2/doc/</p>
+<blockquote>
+A readme.txt file as well as a more prozaic version in timebank.html
+(this file). Also includes the TimeML specifications and guidelines.
+</blockquote>
+
+<p>timebank_1.2/dtd/</p>
+<blockquote>
+Contains the XML schema and DTD as well as the Perl script and
+Java class used for validation of TimeBank.
+</blockquote>
+
+<p>timebank_1.2/data/timeml/</p>
+<blockquote>
+Contains the 183 annotated documents with TimeML tags only.
+</blockquote>
+
+<p>timebank_1.2/data/extra/</p>
+<blockquote>
+Contains the 183 annotated documents with TimeML tags and some extra
+tags like sentence markers, document-level tags and some entity tags.
+</blockquote>
+
+
+
+<p><a name="future"></a></p>
+<h2>Future Work</h2>
+
+Timebank is a new resource that is under constant revision. In the
+near future, we will explore the following issues:
+
+<ul>
+<li>Multi-word events
+<li>Event classes of slink introducing predicates
+<li>Argument linking
+<li>Generic events
+<li>Inconsistencies in annotations of numbers and cardinals
+<li>Temporal relations between document creation time and reporting events
+<li>Distinction between creation time and publication time.
+</ul>
+
+Please contact us at timebank@timeml.org if you have any remarks on
+the state or quality of TimeBank.
+
+
+<p><a name="contrib"></a></p>
+<h2>Contributors to TimeBank</h2>
+
+The following is a list of people who have contributed to TimeBank
+through annotation, construction of authoring and validation tools,
+participation in TimeML discussions, or otherwise:
+
+<blockquote>
+Luc Belanger, Bran Boguraev, Jose Casta&ntilde;o, David Day, Jenna
+Fernandes, Lisa Ferro, Robert Gaizauskas, Linda van Guilder, Patrick
+Hanks, Jerry Hobbs, Seo-Hyun Im, Robert Ingria, Graham Katz, Robert
+Knippen, Innokenti Kremerman, Marcia Lazo, Jessica Littman, Inderjeet
+Mani, James Pustejovsky, Dragomir Radev, Anna Rumshisky, Antonio
+Sanfilippo, Roser Saur&iacute;, Andrew See, Andrea Setzer, Oleg
+Sofryguine, Amber Stubbs, Beth Sundheim, Svetlana Symonenko, Marc
+Verhagen, Harris Wu.  </blockquote>
+
+<p>We would like to express our sincere thanks to John Prange and Penny S.
+Lehtola from ARDA, without whose funding, TimeML and TimeBank would not
+have been possible. We would also like to thank Mark Maybury of MITRE,
+for making the facilities of the NRRC at MITRE Bedford available to us
+during the initial development of TimeBank, throughout both the TERQAS
+and TANGO workshops.</p>
+
+
+
+<p><a name="copy"></a></p>
+<h2>Copyright Notice</h2>
+
+<p>The annotations in this data collection are copyrighted by Brandeis
+University. User acknowledges and agrees that: (i) as between User and
+Brandeis University, Brandeis University owns all the right, title and
+interest in the Annotated Content, unless expressly stated otherwise;
+(ii) nothing in this Agreement shall confer in User any right of
+ownership in the Annotated Content; and (iii) User is granted a
+non-exclusive, royalty free, worldwide license (with no right to
+sublicense) to use the Annotated Content solely for academic and
+research purposes. This Agreement is governed by the law of the
+Commonwealth of Massachusetts and User agrees to submit to the
+exclusive jurisdiction of the Massachusetts courts.</p>
+
+<p>Note: The textual news documents annotated in this corpus have been
+collected from a wide range of sources and are not copyrighted by 
+Brandeis University. The user acknowledges that the use of these news
+documents is restricted to research and/or academic purposes only.</p>
+
+</body> 
+</html>

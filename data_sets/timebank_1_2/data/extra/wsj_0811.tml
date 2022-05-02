@@ -1,0 +1,71 @@
+<?xml version="1.0" ?>
+<TimeML
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:noNamespaceSchemaLocation="../../dtd/timeml_1.2.1.xsd">
+
+<DOCNO> WSJ891027-0084 </DOCNO>
+<DD> = 891027 </DD>
+<AN> 891027-0084. </AN>
+<HL> Financing Business:
+@  Blockbuster Entertainment Corp. </HL>
+<DD> <TIMEX3 tid="t41" type="DATE" value="1989-10-27" temporalFunction="false" functionInDocument="CREATION_TIME">10/27/89</TIMEX3> </DD>
+<SO> WALL STREET JOURNAL (J) </SO>
+<CO> BV </CO>
+<IN> BOND MARKET NEWS (BON) </IN>
+<TEXT>
+   <s><ENAMEX TYPE="ORGANIZATION">BLOCKBUSTER ENTERTAINMENT CORP.</ENAMEX> <EVENT eid="e1" class="REPORTING">said</EVENT> it <EVENT eid="e2" class="OCCURRENCE">raised</EVENT> <NUMEX TYPE="MONEY">$92 million</NUMEX> from an <EVENT eid="e3" class="OCCURRENCE">offering</EVENT> of liquid yield option notes.</s> 
+<s>The gross proceeds from the <EVENT eid="e6" class="OCCURRENCE">sale</EVENT> of the notes, which will be <EVENT eid="e38" class="OCCURRENCE">due</EVENT> <SIGNAL sid="s39">on</SIGNAL> <TIMEX3 tid="t42" type="DATE" value="2004-11-01" temporalFunction="false" functionInDocument="NONE">Nov. 1, 2004</TIMEX3>, will be <EVENT eid="e9" class="OCCURRENCE">used</EVENT> to <EVENT eid="e11" class="OCCURRENCE">reduce</EVENT> existing debt and for general corporate purposes, the company <EVENT eid="e13" class="REPORTING">said</EVENT>.</s> 
+<s>The debt <EVENT eid="e14" class="OCCURRENCE">reduction</EVENT> is <EVENT eid="e15" class="I_STATE">expected</EVENT> to <EVENT eid="e17" class="OCCURRENCE">save</EVENT> the <ENAMEX TYPE="LOCATION">Fort Lauderdale</ENAMEX>, <ENAMEX TYPE="LOCATION">Fla.</ENAMEX> home video concern about <NUMEX TYPE="MONEY">$2 million</NUMEX> a year in interest expense.</s> 
+<s>The zero-coupon subordinated notes have no periodic interest <EVENT eid="e21" class="OCCURRENCE">payments</EVENT>.</s> 
+<s>Each note is being <EVENT eid="e24" class="I_ACTION">offered</EVENT> at <NUMEX TYPE="MONEY">$308.32</NUMEX> per <NUMEX TYPE="MONEY">$1,000</NUMEX> principal amount at maturity, representing an <NUMEX TYPE="PERCENT">8%</NUMEX> yield to maturity.</s> 
+<s>In addition, each note can be <EVENT eid="e29" class="OCCURRENCE">converted</EVENT> into <ENAMEX TYPE="ORGANIZATION">Blockbuster Entertainment</ENAMEX> common stock at a rate of <CARDINAL>13.851</CARDINAL> shares per note.</s> 
+<s><ENAMEX TYPE="ORGANIZATION">Merrill Lynch Capital Markets Inc.</ENAMEX> is the sole underwriter for the <EVENT eid="e33" class="OCCURRENCE">offering</EVENT>.</s> 
+<s>The notes will <EVENT eid="e44" class="STATE">have</EVENT> a principal amount of <NUMEX TYPE="MONEY">$300 million</NUMEX> at maturity.</s> 
+<s><ENAMEX TYPE="ORGANIZATION">Blockbuster</ENAMEX> shares <EVENT eid="e35" class="OCCURRENCE">closed</EVENT> <TIMEX3 tid="t45" type="DATE" value="1989-10-26" temporalFunction="true" functionInDocument="NONE" anchorTimeID="t41">yesterday</TIMEX3> at <NUMEX TYPE="MONEY">$18.75</NUMEX>, down <NUMEX TYPE="MONEY">$1.125</NUMEX>, in <ENAMEX TYPE="ORGANIZATION">New York Stock Exchange</ENAMEX> trading.</s> 
+
+</TEXT>
+
+
+
+<MAKEINSTANCE eventID="e3" eiid="ei152" tense="NONE" aspect="NONE" polarity="POS" pos="NOUN"/>
+<MAKEINSTANCE eventID="e35" eiid="ei166" tense="PAST" aspect="NONE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e24" eiid="ei162" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e15" eiid="ei159" tense="PRESENT" aspect="PERFECTIVE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e9" eiid="ei155" tense="FUTURE" aspect="NONE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e29" eiid="ei163" tense="NONE" aspect="NONE" polarity="POS" pos="VERB" modality="can"/>
+<MAKEINSTANCE eventID="e44" eiid="ei165" tense="FUTURE" aspect="NONE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e6" eiid="ei153" tense="NONE" aspect="NONE" polarity="POS" pos="NOUN"/>
+<MAKEINSTANCE eventID="e38" eiid="ei154" tense="FUTURE" aspect="NONE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e33" eiid="ei164" tense="NONE" aspect="NONE" polarity="POS" pos="NOUN"/>
+<MAKEINSTANCE eventID="e14" eiid="ei158" tense="NONE" aspect="NONE" polarity="POS" pos="NOUN"/>
+<MAKEINSTANCE eventID="e17" eiid="ei160" tense="INFINITIVE" aspect="NONE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e2" eiid="ei151" tense="PAST" aspect="NONE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e11" eiid="ei156" tense="INFINITIVE" aspect="NONE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e13" eiid="ei157" tense="PAST" aspect="NONE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e21" eiid="ei161" tense="PRESENT" aspect="NONE" polarity="NEG" pos="VERB"/>
+<MAKEINSTANCE eventID="e1" eiid="ei150" tense="PAST" aspect="NONE" polarity="POS" pos="VERB"/>
+
+<TLINK lid="l21" relType="IS_INCLUDED" eventInstanceID="ei159" relatedToTime="t41"/>
+<TLINK lid="l1" relType="IS_INCLUDED" eventInstanceID="ei166" relatedToTime="t45"/>
+<TLINK lid="l2" relType="BEFORE" eventInstanceID="ei150" relatedToTime="t41"/>
+<TLINK lid="l3" relType="AFTER" eventInstanceID="ei151" relatedToEventInstance="ei152"/>
+<TLINK lid="l4" relType="AFTER" eventInstanceID="ei153" relatedToEventInstance="ei152"/>
+<TLINK lid="l5" relType="ENDS" eventInstanceID="ei154" relatedToEventInstance="ei153"/>
+<TLINK lid="l6" relType="IS_INCLUDED" eventInstanceID="ei154" relatedToTime="t42" signalID="s39"/>
+<TLINK lid="l7" relType="BEFORE" eventInstanceID="ei153" relatedToEventInstance="ei155"/>
+<TLINK lid="l8" relType="AFTER" eventInstanceID="ei155" relatedToTime="t41"/>
+<TLINK lid="l9" relType="IDENTITY" eventInstanceID="ei157" relatedToEventInstance="ei150"/>
+<TLINK lid="l10" relType="BEFORE" eventInstanceID="ei158" relatedToEventInstance="ei160"/>
+<TLINK lid="l11" relType="IDENTITY" eventInstanceID="ei158" relatedToEventInstance="ei156"/>
+<TLINK lid="l12" relType="INCLUDES" eventInstanceID="ei161" relatedToTime="t41"/>
+<TLINK lid="l13" relType="INCLUDES" eventInstanceID="ei162" relatedToTime="t41"/>
+<TLINK lid="l14" relType="INCLUDES" eventInstanceID="ei163" relatedToTime="t41"/>
+<TLINK lid="l15" relType="IDENTITY" eventInstanceID="ei164" relatedToEventInstance="ei152"/>
+<TLINK lid="l16" relType="AFTER" eventInstanceID="ei165" relatedToTime="t41"/>
+
+<SLINK lid="l17" relType="EVIDENTIAL" eventInstanceID="ei150" subordinatedEventInstance="ei151"/>
+<SLINK lid="l18" relType="MODAL" eventInstanceID="ei155" subordinatedEventInstance="ei156"/>
+<SLINK lid="l19" relType="EVIDENTIAL" eventInstanceID="ei157" subordinatedEventInstance="ei155"/>
+<SLINK lid="l20" relType="MODAL" eventInstanceID="ei159" subordinatedEventInstance="ei160"/>
+
+</TimeML>

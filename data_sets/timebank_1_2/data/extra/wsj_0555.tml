@@ -1,0 +1,44 @@
+<?xml version="1.0" ?>
+<TimeML
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:noNamespaceSchemaLocation="../../dtd/timeml_1.2.1.xsd">
+
+<DOCNO> WSJ891030-0145 </DOCNO>
+<DD> = 891030 </DD>
+<AN> 891030-0145. </AN>
+<HL> Waxman Industries Debentures </HL>
+<DD> <TIMEX3 tid="t12" type="DATE" value="1989-10-30" temporalFunction="false" functionInDocument="CREATION_TIME">10/30/89</TIMEX3> </DD>
+<SO> WALL STREET JOURNAL (J) </SO>
+<CO> WAX </CO>
+<IN> BUYBACKS, REDEMPTIONS, SWAP OFFERS (BBK) </IN>
+<DATELINE> BEDFORD HEIGHTS, Ohio  </DATELINE>
+<TEXT>
+   <s><ENAMEX TYPE="ORGANIZATION">Waxman Industries Inc.</ENAMEX> <EVENT eid="e1" class="REPORTING">said</EVENT> holders of <NUMEX TYPE="MONEY">$6,542,000</NUMEX> face amount of its <CARDINAL>6</CARDINAL> <NUMEX TYPE="PERCENT">1/4%</NUMEX> convertible subordinated debentures, <EVENT eid="e11" class="STATE">due</EVENT> <TIMEX3 tid="t13" type="DATE" value="2007-03-15" temporalFunction="false" functionInDocument="NONE">March 15, 2007</TIMEX3>, have <EVENT eid="e2" class="I_ACTION">elected</EVENT> to <EVENT eid="e4" class="OCCURRENCE">convert</EVENT> the debt into <CARDINAL>about 683,000</CARDINAL> common shares.</s> 
+
+   <s>The conversion price is <NUMEX TYPE="MONEY">$9.58</NUMEX> a share.</s> 
+
+   <s>The company <EVENT eid="e6" class="REPORTING">said</EVENT> the holders <EVENT eid="e7" class="STATE">represent</EVENT> <NUMEX TYPE="PERCENT">52%</NUMEX> of the face amount of the debentures.</s> 
+
+   <s><ENAMEX TYPE="ORGANIZATION">Waxman</ENAMEX> sells a variety of hardware products for the home repair market.</s> 
+
+</TEXT>
+
+
+
+<MAKEINSTANCE eventID="e1" eiid="ei44" tense="PAST" aspect="NONE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e7" eiid="ei49" tense="PRESENT" aspect="NONE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e2" eiid="ei46" tense="PRESENT" aspect="PERFECTIVE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e4" eiid="ei47" tense="INFINITIVE" aspect="NONE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e11" eiid="ei45" tense="NONE" aspect="NONE" polarity="POS" pos="ADJECTIVE"/>
+<MAKEINSTANCE eventID="e6" eiid="ei48" tense="PAST" aspect="NONE" polarity="POS" pos="VERB"/>
+
+<TLINK lid="l1" relType="BEFORE" eventInstanceID="ei44" relatedToTime="t12"/>
+<TLINK lid="l2" relType="ENDED_BY" eventInstanceID="ei45" relatedToTime="t13"/>
+<TLINK lid="l3" relType="BEFORE" eventInstanceID="ei46" relatedToEventInstance="ei44"/>
+<TLINK lid="l4" relType="IDENTITY" eventInstanceID="ei48" relatedToEventInstance="ei44"/>
+
+<SLINK lid="l5" relType="EVIDENTIAL" eventInstanceID="ei44" subordinatedEventInstance="ei46"/>
+<SLINK lid="l6" relType="MODAL" eventInstanceID="ei46" subordinatedEventInstance="ei47"/>
+<SLINK lid="l7" relType="EVIDENTIAL" eventInstanceID="ei48" subordinatedEventInstance="ei49"/>
+
+</TimeML>

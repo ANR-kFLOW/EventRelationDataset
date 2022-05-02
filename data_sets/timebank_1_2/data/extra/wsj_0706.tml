@@ -1,0 +1,73 @@
+<?xml version="1.0" ?>
+<TimeML
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:noNamespaceSchemaLocation="../../dtd/timeml_1.2.1.xsd">
+
+<DOCNO> WSJ891027-0189 </DOCNO>
+<DD> = 891027 </DD>
+<AN> 891027-0189. </AN>
+<HL> Security Pacific Corp. </HL>
+<DD> <TIMEX3 tid="t28" type="DATE" value="1989-10-27" temporalFunction="false" functionInDocument="CREATION_TIME">10/27/89</TIMEX3> </DD>
+<SO> WALL STREET JOURNAL (J) </SO>
+<CO> SPC LJC </CO>
+<IN> TENDER OFFERS, MERGERS, ACQUISITIONS (TNM)
+BANKS (BNK) </IN>
+<DATELINE> LOS ANGELES  </DATELINE>
+<TEXT>
+   <s><ENAMEX TYPE="ORGANIZATION">Security Pacific Corp.</ENAMEX> has <EVENT eid="e1" class="OCCURRENCE">set</EVENT> its sights on <EVENT eid="e4" class="OCCURRENCE">buying</EVENT> its second bank holding company <TIMEX3 tid="t29" type="DATE" value="1989" temporalFunction="true" functionInDocument="NONE" anchorTimeID="t28">this year</TIMEX3>.</s> 
+
+   <s>Security <EVENT eid="e7" class="REPORTING">said</EVENT> it <EVENT eid="e8" class="OCCURRENCE">signed</EVENT> a letter of <EVENT eid="e10" class="I_STATE">intent</EVENT> to <EVENT eid="e12" class="OCCURRENCE">purchase</EVENT> <ENAMEX TYPE="ORGANIZATION">La Jolla Bancorp</ENAMEX>, <EVENT eid="e13" class="I_STATE">agreeing</EVENT> to <EVENT eid="e15" class="OCCURRENCE">pay</EVENT> <NUMEX TYPE="MONEY">$15</NUMEX> of its own stock for each share of <ENAMEX TYPE="LOCATION">La Jolla</ENAMEX>.</s> 
+<s>Based on the <TIMEX3 tid="t30" type="DATE" value="PRESENT_REF" temporalFunction="true" functionInDocument="NONE" anchorTimeID="t28">current</TIMEX3> number of <ENAMEX TYPE="LOCATION">La Jolla</ENAMEX> shares, that gives the <EVENT eid="e19" class="OCCURRENCE">transaction</EVENT> a value of <NUMEX TYPE="MONEY">$104 million</NUMEX>.</s> 
+
+   <s><ENAMEX TYPE="LOCATION">La Jolla</ENAMEX> is the parent company of <ENAMEX TYPE="ORGANIZATION">La Jolla Bank amp Trust Co.</ENAMEX>, which <EVENT eid="e20" class="OCCURRENCE">has</EVENT> <CARDINAL>12</CARDINAL> branches in <ENAMEX TYPE="LOCATION">San Diego County</ENAMEX>.</s> 
+<s>As of <TIMEX3 tid="t33" type="DATE" value="1989-09-30" temporalFunction="true" functionInDocument="NONE" anchorTimeID="t28">Sept. 30</TIMEX3>, the bank <EVENT eid="e37" class="STATE">had</EVENT> assets of <NUMEX TYPE="MONEY">$511 million</NUMEX> and deposits of <NUMEX TYPE="MONEY">$469 million</NUMEX>, <ENAMEX TYPE="ORGANIZATION">Security Pacific</ENAMEX> <EVENT eid="e22" class="REPORTING">said</EVENT>.</s> 
+
+   <s><TIMEX3 tid="t34" type="DATE" value="1989-10" mod="START" temporalFunction="true" functionInDocument="NONE" anchorTimeID="t28">Earlier this month</TIMEX3>, <ENAMEX TYPE="ORGANIZATION">Security Pacific</ENAMEX>, which is among the <CARDINAL>10</CARDINAL> largest bank holding companies in the <ENAMEX TYPE="LOCATION">U.S.</ENAMEX>, <EVENT eid="e24" class="ASPECTUAL">completed</EVENT> the <EVENT eid="e25" class="OCCURRENCE">acquisition</EVENT> of <ENAMEX TYPE="LOCATION">San</ENAMEX> Diego-based <ENAMEX TYPE="ORGANIZATION">Southwest Bancorp.</ENAMEX></s> 
+
+</TEXT>
+
+
+
+<MAKEINSTANCE eventID="e22" eiid="ei2003" tense="PAST" aspect="NONE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e15" eiid="ei1997" tense="INFINITIVE" aspect="NONE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e7" eiid="ei1992" tense="PAST" aspect="NONE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e8" eiid="ei1993" tense="PAST" aspect="NONE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e24" eiid="ei2004" tense="PAST" aspect="NONE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e1" eiid="ei1990" tense="PRESENT" aspect="PERFECTIVE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e4" eiid="ei1991" tense="NONE" aspect="NONE" polarity="POS" pos="NOUN"/>
+<MAKEINSTANCE eventID="e12" eiid="ei1995" tense="INFINITIVE" aspect="NONE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e13" eiid="ei1996" tense="PRESPART" aspect="NONE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e25" eiid="ei2005" tense="NONE" aspect="NONE" polarity="POS" pos="NOUN"/>
+<MAKEINSTANCE eventID="e10" eiid="ei1994" tense="NONE" aspect="NONE" polarity="POS" pos="NOUN"/>
+<MAKEINSTANCE eventID="e19" eiid="ei1998" tense="NONE" aspect="NONE" polarity="POS" pos="NOUN"/>
+<MAKEINSTANCE eventID="e20" eiid="ei2000" tense="PRESENT" aspect="NONE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e37" eiid="ei2007" tense="PAST" aspect="NONE" polarity="POS" pos="OTHER"/>
+
+<TLINK lid="l19" relType="IS_INCLUDED" eventInstanceID="ei2005" relatedToTime="t34"/>
+<TLINK lid="l18" relType="BEFORE" eventInstanceID="ei2003" relatedToTime="t28"/>
+<TLINK lid="l17" relType="IS_INCLUDED" eventInstanceID="ei2007" relatedToTime="t33"/>
+<TLINK lid="l1" relType="BEFORE" eventInstanceID="ei1990" relatedToTime="t28"/>
+<TLINK lid="l2" relType="BEFORE" timeID="t34" relatedToTime="t28"/>
+
+<TLINK lid="l3" relType="IDENTITY" eventInstanceID="ei1998" relatedToEventInstance="ei1995"/>
+<TLINK lid="l4" relType="INCLUDES" eventInstanceID="ei1995" relatedToEventInstance="ei1997"/>
+<TLINK lid="l5" relType="IS_INCLUDED" eventInstanceID="ei1990" relatedToTime="t29"/>
+<TLINK lid="l6" relType="SIMULTANEOUS" eventInstanceID="ei1994" relatedToEventInstance="ei1996"/>
+<TLINK lid="l7" relType="IS_INCLUDED" timeID="t34" relatedToEventInstance="ei2004"/>
+<TLINK lid="l8" relType="BEFORE" eventInstanceID="ei1992" relatedToTime="t28"/>
+
+
+<TLINK lid="l9" relType="SIMULTANEOUS" eventInstanceID="ei2000" relatedToTime="t28"/>
+<TLINK lid="l10" relType="INCLUDES" eventInstanceID="ei1994" relatedToEventInstance="ei1993"/>
+
+<SLINK lid="l16" relType="EVIDENTIAL" eventInstanceID="ei2003" subordinatedEventInstance="ei2007"/>
+<SLINK lid="l11" relType="MODAL" eventInstanceID="ei1990" subordinatedEventInstance="ei1991"/>
+
+
+<SLINK lid="l12" relType="EVIDENTIAL" eventInstanceID="ei1992" subordinatedEventInstance="ei1993"/>
+<SLINK lid="l13" relType="MODAL" eventInstanceID="ei1994" subordinatedEventInstance="ei1995"/>
+<SLINK lid="l14" relType="MODAL" eventInstanceID="ei1996" subordinatedEventInstance="ei1997"/>
+
+<ALINK lid="l15" relType="CULMINATES" eventInstanceID="ei2004" relatedToEventInstance="ei2005"/>
+
+</TimeML>
