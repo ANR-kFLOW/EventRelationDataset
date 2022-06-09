@@ -1,0 +1,115 @@
+<TimeML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://timeml.org/timeMLdocs/TimeML_1.2.1.xsd">
+
+
+ WSJ891102-0047 
+ = 891102 
+ 891102-0047. 
+ Travelers Profit Rose
+@  11% in Third Quarter
+@  Despite Hugo Claims 
+ <TIMEX3 functionInDocument="CREATION_TIME" temporalFunction="false" tid="t27" type="DATE" value="1989-11-02">11/02/89</TIMEX3> 
+ WALL STREET JOURNAL (J) 
+ TIC 
+ EARNINGS (ERN) 
+ HARTFORD, Conn.  
+
+   Travelers Corp.'s <TIMEX3 anchorTimeID="t27" functionInDocument="NONE" temporalFunction="true" tid="t28" type="DATE" value="1989-Q3">third-quarter</TIMEX3> net income <EVENT class="OCCURRENCE" eid="e1">rose</EVENT> 11%, even though claims stemming from Hurricane Hugo <EVENT class="OCCURRENCE" eid="e4">reduced</EVENT> results $40 million. 
+
+   Net <EVENT class="OCCURRENCE" eid="e6">advanced</EVENT> to <EVENT class="STATE" eid="e2163">$94.2</EVENT> million, or 89 cents a share, from <EVENT class="STATE" eid="e2164">$85</EVENT> million, or 83 cents a share, including net realized investment <EVENT class="OCCURRENCE" eid="e33">gains</EVENT> of $31 million, <EVENT class="OCCURRENCE" eid="e34">up</EVENT> from <EVENT class="STATE" eid="e2165">$10</EVENT> million <TIMEX3 anchorTimeID="t28" functionInDocument="NONE" temporalFunction="true" tid="t40" type="DATE" value="1988-Q3">a year ago</TIMEX3>. 
+But revenue <EVENT class="OCCURRENCE" eid="e8">declined</EVENT> to <EVENT class="STATE" eid="e2166">$3</EVENT> billion from <EVENT class="STATE" eid="e2167">$3.2</EVENT> billion. 
+
+   Travelers <EVENT class="I_ACTION" eid="e45">estimated</EVENT> that the California <EVENT class="OCCURRENCE" eid="e46">earthquake</EVENT> <TIMEX3 anchorTimeID="t27" functionInDocument="NONE" temporalFunction="true" tid="t47" type="DATE" value="1989-10">last month</TIMEX3> will <EVENT class="ASPECTUAL" eid="e10">result</EVENT> in a <TIMEX3 anchorTimeID="t27" functionInDocument="NONE" temporalFunction="true" tid="t48" type="DATE" value="1989-Q4">fourth-quarter</TIMEX3> pre-tax <EVENT class="OCCURRENCE" eid="e49">charge</EVENT> of less than $10 million. 
+
+   The insurer's earnings from commercial property/casualty lines <EVENT class="OCCURRENCE" eid="e12">fell</EVENT> 59% <SIGNAL sid="s2115">in</SIGNAL> <TIMEX3 anchorTimeID="t28" functionInDocument="NONE" temporalFunction="true" tid="t52" type="DATE" value="1989-Q3">the latest quarter</TIMEX3>, while it <EVENT class="OCCURRENCE" eid="e14">lost</EVENT> $7.2 million in its personal property/casualty business, compared with earnings of <EVENT class="STATE" eid="e2169">$6.1</EVENT> million <TIMEX3 anchorTimeID="t28" functionInDocument="NONE" temporalFunction="true" tid="t51" type="DATE" value="1988-Q3">a year ago</TIMEX3>. 
+
+   Travelers's employee benefits group, which includes its group health insurance operations, <EVENT class="REPORTING" eid="e19">posted</EVENT> <EVENT class="OCCURRENCE" eid="e2162">earnings</EVENT> of $24 million, compared with a <EVENT class="OCCURRENCE" eid="e21">loss</EVENT> of <EVENT class="STATE" eid="e2170">$3</EVENT> million <TIMEX3 anchorTimeID="t28" functionInDocument="NONE" temporalFunction="true" tid="t56" type="DATE" value="1988-Q3">last year</TIMEX3>. 
+
+   In <TIMEX3 beginPoint="t59" functionInDocument="NONE" temporalFunction="true" tid="t58" type="DURATION" value="P9M">the first nine months</TIMEX3>, net was <EVENT class="STATE" eid="e2171">$306</EVENT> million, compared with a <EVENT class="OCCURRENCE" eid="e23">loss</EVENT> of $195 million <SIGNAL sid="s2174">in</SIGNAL> <TIMEX3 functionInDocument="NONE" temporalFunction="false" tid="t59" type="DATE" value="1988">the 1988 period</TIMEX3>. 
+The <TIMEX3 anchorTimeID="t62" functionInDocument="NONE" temporalFunction="true" tid="t60" type="DATE" value="1988">year-ago</TIMEX3> <EVENT class="OCCURRENCE" eid="e24">results</EVENT> included a $415 million <EVENT class="OCCURRENCE" eid="e61">charge</EVENT> <SIGNAL sid="s2197">in</SIGNAL> <TIMEX3 functionInDocument="NONE" temporalFunction="false" tid="t62" type="DATE" value="1988-Q2">the 1988 second quarter</TIMEX3> for underperforming real estate and mortgage loans. 
+
+
+
+
+<MAKEINSTANCE aspect="NONE" eiid="ei2202" eventID="e1" polarity="POS" pos="VERB" tense="PAST" />
+<MAKEINSTANCE aspect="NONE" eiid="ei2203" eventID="e4" polarity="POS" pos="VERB" tense="PAST" />
+<MAKEINSTANCE aspect="NONE" eiid="ei2204" eventID="e6" polarity="POS" pos="VERB" tense="PAST" />
+<MAKEINSTANCE aspect="NONE" eiid="ei2207" eventID="e33" polarity="POS" pos="NOUN" tense="NONE" />
+<MAKEINSTANCE aspect="NONE" eiid="ei2208" eventID="e34" polarity="POS" pos="OTHER" tense="NONE" />
+<MAKEINSTANCE aspect="NONE" eiid="ei2210" eventID="e8" polarity="POS" pos="VERB" tense="PAST" />
+<MAKEINSTANCE aspect="NONE" eiid="ei2213" eventID="e45" polarity="POS" pos="VERB" tense="PAST" />
+<MAKEINSTANCE aspect="NONE" eiid="ei2214" eventID="e46" polarity="POS" pos="NOUN" tense="NONE" />
+<MAKEINSTANCE aspect="NONE" eiid="ei2215" eventID="e10" polarity="POS" pos="VERB" tense="FUTURE" />
+<MAKEINSTANCE aspect="NONE" eiid="ei2216" eventID="e49" polarity="POS" pos="NOUN" tense="NONE" />
+<MAKEINSTANCE aspect="NONE" eiid="ei2217" eventID="e12" polarity="POS" pos="VERB" tense="PAST" />
+<MAKEINSTANCE aspect="NONE" eiid="ei2218" eventID="e14" polarity="POS" pos="VERB" tense="PAST" />
+<MAKEINSTANCE aspect="NONE" eiid="ei2220" eventID="e19" polarity="POS" pos="VERB" tense="PAST" />
+<MAKEINSTANCE aspect="NONE" eiid="ei2222" eventID="e21" polarity="POS" pos="NOUN" tense="NONE" />
+<MAKEINSTANCE aspect="NONE" eiid="ei2224" eventID="e23" polarity="POS" pos="NOUN" tense="NONE" />
+<MAKEINSTANCE aspect="NONE" eiid="ei2225" eventID="e24" polarity="POS" pos="NOUN" tense="NONE" />
+<MAKEINSTANCE aspect="NONE" eiid="ei2226" eventID="e61" polarity="POS" pos="NOUN" tense="NONE" />
+<MAKEINSTANCE aspect="NONE" eiid="ei2227" eventID="e2162" polarity="POS" pos="NOUN" tense="NONE" />
+<MAKEINSTANCE aspect="NONE" eiid="ei2228" eventID="e2163" polarity="POS" pos="OTHER" tense="NONE" />
+<MAKEINSTANCE aspect="NONE" eiid="ei2229" eventID="e2164" polarity="POS" pos="OTHER" tense="NONE" />
+<MAKEINSTANCE aspect="NONE" eiid="ei2230" eventID="e2165" polarity="POS" pos="OTHER" tense="NONE" />
+<MAKEINSTANCE aspect="NONE" eiid="ei2231" eventID="e2166" polarity="POS" pos="OTHER" tense="NONE" />
+<MAKEINSTANCE aspect="NONE" eiid="ei2232" eventID="e2167" polarity="POS" pos="OTHER" tense="NONE" />
+<MAKEINSTANCE aspect="NONE" eiid="ei2234" eventID="e2169" polarity="POS" pos="OTHER" tense="NONE" />
+<MAKEINSTANCE aspect="NONE" eiid="ei2235" eventID="e2170" polarity="POS" pos="OTHER" tense="NONE" />
+<MAKEINSTANCE aspect="NONE" eiid="ei2236" eventID="e2171" polarity="POS" pos="OTHER" tense="PAST" />
+
+<TLINK eventInstanceID="ei2236" lid="l45" relType="IS_INCLUDED" relatedToTime="t58" />
+<TLINK eventInstanceID="ei2235" lid="l44" relType="IS_INCLUDED" relatedToTime="t56" />
+<TLINK eventInstanceID="ei2234" lid="l43" relType="IS_INCLUDED" relatedToTime="t51" />
+<TLINK eventInstanceID="ei2232" lid="l42" relType="BEFORE" relatedToEventInstance="ei2210" />
+<TLINK eventInstanceID="ei2231" lid="l41" relType="IAFTER" relatedToEventInstance="ei2210" />
+<TLINK eventInstanceID="ei2229" lid="l40" relType="BEFORE" relatedToEventInstance="ei2228" />
+<TLINK eventInstanceID="ei2228" lid="l39" relType="IAFTER" relatedToEventInstance="ei2204" />
+<TLINK eventInstanceID="ei2230" lid="l38" relType="IS_INCLUDED" relatedToTime="t40" />
+<TLINK eventInstanceID="ei2226" lid="l1" relType="IS_INCLUDED" relatedToTime="t62" signalID="s2197" />
+<TLINK eventInstanceID="ei2202" lid="l2" relType="BEFORE" relatedToTime="t27" />
+<TLINK eventInstanceID="ei2202" lid="l3" relType="IS_INCLUDED" relatedToTime="t28" />
+
+<TLINK lid="l5" relType="BEFORE" relatedToTime="t27" timeID="t28" />
+<TLINK eventInstanceID="ei2204" lid="l6" relType="SIMULTANEOUS" relatedToEventInstance="ei2202" />
+
+
+
+
+
+
+<TLINK lid="l9" relType="BEFORE" relatedToTime="t28" timeID="t40" />
+<TLINK eventInstanceID="ei2210" lid="l10" relType="SIMULTANEOUS" relatedToEventInstance="ei2204" />
+
+
+<TLINK eventInstanceID="ei2213" lid="l11" relType="BEFORE" relatedToTime="t27" />
+<TLINK eventInstanceID="ei2214" lid="l12" relType="IS_INCLUDED" relatedToTime="t47" />
+<TLINK lid="l13" relType="BEFORE" relatedToTime="t27" timeID="t47" />
+<TLINK lid="l14" relType="AFTER" relatedToTime="t28" timeID="t47" />
+<TLINK eventInstanceID="ei2214" lid="l15" relType="BEFORE" relatedToEventInstance="ei2215" />
+<TLINK eventInstanceID="ei2216" lid="l16" relType="IS_INCLUDED" relatedToTime="t48" />
+<TLINK eventInstanceID="ei2204" lid="l17" relType="IS_INCLUDED" relatedToTime="t28" />
+<TLINK eventInstanceID="ei2217" lid="l18" relType="IS_INCLUDED" relatedToTime="t28" />
+<TLINK lid="l19" relType="IDENTITY" relatedToTime="t28" timeID="t52" />
+<TLINK lid="l20" relType="AFTER" relatedToTime="t28" timeID="t48" />
+<TLINK eventInstanceID="ei2218" lid="l21" relType="SIMULTANEOUS" relatedToEventInstance="ei2217" />
+<TLINK eventInstanceID="ei2217" lid="l22" relType="IS_INCLUDED" relatedToTime="t52" signalID="s2115" />
+
+<TLINK lid="l24" relType="BEFORE" relatedToTime="t52" timeID="t51" />
+<TLINK eventInstanceID="ei2220" lid="l25" relType="BEFORE" relatedToTime="t27" />
+
+<TLINK eventInstanceID="ei2222" lid="l27" relType="SIMULTANEOUS" relatedToTime="t56" />
+<TLINK lid="l28" relType="BEFORE" relatedToTime="t28" timeID="t56" />
+
+<TLINK lid="l29" relType="IBEFORE" relatedToTime="t48" timeID="t58" />
+<TLINK lid="l30" relType="AFTER" relatedToTime="t59" timeID="t58" />
+<TLINK eventInstanceID="ei2224" lid="l31" relType="SIMULTANEOUS" relatedToTime="t59" signalID="s2174" />
+<TLINK lid="l32" relType="IDENTITY" relatedToTime="t59" timeID="t60" />
+<TLINK eventInstanceID="ei2225" lid="l33" relType="ENDED_BY" relatedToTime="t60" />
+
+
+<SLINK eventInstanceID="ei2213" lid="l35" relType="MODAL" subordinatedEventInstance="ei2215" />
+<SLINK eventInstanceID="ei2220" lid="l36" relType="EVIDENTIAL" subordinatedEventInstance="ei2227" />
+
+<ALINK eventInstanceID="ei2215" lid="l37" relType="INITIATES" relatedToEventInstance="ei2216" />
+
+</TimeML>
