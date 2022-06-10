@@ -59,4 +59,4 @@ In addition, the bank <EVENT class="STATE" eid="e22" stem="have">has</EVENT> an 
 <SLINK eventInstanceID="ei128" lid="l18" relType="EVIDENTIAL" subordinatedEventInstance="ei129" />
 
 
-</TimeML>
+<RLINK eventInstanceID="ei123" lid="l22" relType="enable" relatedEventInstance="ei126" /></TimeML>

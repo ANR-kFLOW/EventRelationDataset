@@ -148,4 +148,4 @@ Nestle S.A. is based in Vevey, Switzerland.
 <SLINK eventInstanceID="ei2025" lid="l52" relType="EVIDENTIAL" subordinatedEventInstance="ei2026" />
 <SLINK eventInstanceID="ei2031" lid="l53" relType="EVIDENTIAL" subordinatedEventInstance="ei2029" />
 
-<RLINK eventInstanceID="ei1993" lid="l55" relType="cause" relatedEventInstance="ei1998" /><RLINK eventInstanceID="ei2015" lid="l56" relType="cause" relatedEventInstance="ei2017" /></TimeML>
+<RLINK eventInstanceID="ei1993" lid="l55" relType="cause" relatedEventInstance="ei1998" /><RLINK eventInstanceID="ei2015" lid="l56" relType="cause" relatedEventInstance="ei2017" /><RLINK eventInstanceID="ei2015" lid="l57" relType="cause" relatedEventInstance="ei2016" /><RLINK eventInstanceID="ei2026" lid="l58" relType="cause" relatedEventInstance="ei2027" /></TimeML>

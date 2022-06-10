@@ -155,4 +155,4 @@ But they never <EVENT class="OCCURRENCE" eid="e65" stem="materialize">materializ
 
 
 
-<RLINK eventInstanceID="ei407" lid="l64" relType="intention" relatedEventInstance="ei408" /><RLINK eventInstanceID="ei418" lid="l65" relType="cause" relatedEventInstance="ei421" /></TimeML>
+<RLINK eventInstanceID="ei407" lid="l64" relType="intention" relatedEventInstance="ei408" /><RLINK eventInstanceID="ei418" lid="l65" relType="cause" relatedEventInstance="ei421" /><RLINK eventInstanceID="ei418" lid="l66" relType="cause" relatedEventInstance="ei419" /></TimeML>

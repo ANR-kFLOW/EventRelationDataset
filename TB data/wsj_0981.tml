@@ -160,4 +160,4 @@ The facility will be <EVENT class="OCCURRENCE" eid="e69">marketed</EVENT> toward
 
 <ALINK eventInstanceID="ei2316" lid="l56" relType="INITIATES" relatedToEventInstance="ei2314" />
 
-<RLINK eventInstanceID="ei2278" lid="l59" relType="cause" relatedEventInstance="ei2279" /></TimeML>
+<RLINK eventInstanceID="ei2276" lid="l59" relType="cause" relatedEventInstance="ei2277" /><RLINK eventInstanceID="ei2278" lid="l60" relType="cause" relatedEventInstance="ei2279" /></TimeML>

@@ -60,4 +60,4 @@ A reinsurance company effectively insures insurance companies that wish to sprea
 <SLINK eventInstanceID="ei116" lid="l17" relType="EVIDENTIAL" subordinatedEventInstance="ei115" />
 
 
-<RLINK eventInstanceID="ei107" lid="l19" relType="intention" relatedEventInstance="ei108" /></TimeML>
+<RLINK eventInstanceID="ei107" lid="l19" relType="intention" relatedEventInstance="ei108" /><RLINK eventInstanceID="ei111" lid="l20" relType="cause" relatedEventInstance="ei112" /></TimeML>

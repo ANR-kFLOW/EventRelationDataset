@@ -102,4 +102,4 @@ The thrift <EVENT class="STATE" eid="e25">has</EVENT> <EVENT class="STATE" eid="
 
 <ALINK eventInstanceID="ei2227" lid="l39" relType="CONTINUES" relatedToEventInstance="ei2228" />
 
-</TimeML>
+<RLINK eventInstanceID="ei2203" lid="l41" relType="cause" relatedEventInstance="ei2205" /></TimeML>

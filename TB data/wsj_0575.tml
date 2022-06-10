@@ -331,4 +331,4 @@ Perlman nor Price <EVENT class="REPORTING" eid="e183">said</EVENT> he <EVENT cla
 <ALINK eventInstanceID="ei2677" lid="l115" relType="CONTINUES" relatedToEventInstance="ei2674" />
 <ALINK eventInstanceID="ei2702" lid="l116" relType="CONTINUES" relatedToEventInstance="ei2703" />
 
-<RLINK eventInstanceID="ei2653" lid="l139" relType="cause" relatedEventInstance="ei2654" /></TimeML>
+<RLINK eventInstanceID="ei2653" lid="l139" relType="cause" relatedEventInstance="ei2654" /><RLINK eventInstanceID="ei2671" lid="l140" relType="cause" relatedEventInstance="ei2670" /><RLINK eventInstanceID="ei2671" lid="l141" relType="cause" relatedEventInstance="ei2669" /><RLINK eventInstanceID="ei2689" lid="l142" relType="cause" relatedEventInstance="ei2690" /></TimeML>

@@ -67,4 +67,4 @@ By comparison, for <TIMEX3 functionInDocument="NONE" temporalFunction="false" ti
 <SLINK eventInstanceID="ei133" lid="l17" relType="EVIDENTIAL" subordinatedEventInstance="ei134" />
 <SLINK eventInstanceID="ei131" lid="l18" relType="EVIDENTIAL" subordinatedEventInstance="ei132" />
 
-</TimeML>
+<RLINK eventInstanceID="ei143" lid="l22" relType="cause" relatedEventInstance="ei142" /><RLINK eventInstanceID="ei145" lid="l23" relType="cause" relatedEventInstance="ei149" /></TimeML>

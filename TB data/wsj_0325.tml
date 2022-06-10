@@ -83,4 +83,4 @@ The company <EVENT class="REPORTING" eid="e25" stem="say">said</EVENT> its junk-
 <ALINK eventInstanceID="ei215" lid="l30" relType="INITIATES" relatedToEventInstance="ei216" />
 
 
-<RLINK eventInstanceID="ei209" lid="l32" relType="intention" relatedEventInstance="ei211" /></TimeML>
+<RLINK eventInstanceID="ei209" lid="l32" relType="intention" relatedEventInstance="ei211" /><RLINK eventInstanceID="ei222" lid="l33" relType="cause" relatedEventInstance="ei223" /></TimeML>

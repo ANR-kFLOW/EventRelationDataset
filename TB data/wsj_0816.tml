@@ -211,4 +211,4 @@ The dollar <EVENT class="OCCURRENCE" eid="e85">soared</EVENT> against the pound,
 <SLINK eventInstanceID="ei526" lid="l69" relType="MODAL" subordinatedEventInstance="ei527" />
 <SLINK eventInstanceID="ei522" lid="l70" relType="MODAL" subordinatedEventInstance="ei541" />
 
-</TimeML>
+<RLINK eventInstanceID="ei506" lid="l78" relType="cause" relatedEventInstance="ei508" /><RLINK eventInstanceID="ei511" lid="l79" relType="cause" relatedEventInstance="ei515" /></TimeML>

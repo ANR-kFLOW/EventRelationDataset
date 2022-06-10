@@ -131,4 +131,4 @@ Sales <EVENT class="OCCURRENCE" eid="e32">rose</EVENT> 6.7% to <EVENT class="STA
 
 <ALINK eventInstanceID="ei339" lid="l33" relType="CONTINUES" relatedToEventInstance="ei340" />
 
-<RLINK eventInstanceID="ei344" lid="l47" relType="cause" relatedEventInstance="ei343" /></TimeML>
+<RLINK eventInstanceID="ei336" lid="l47" relType="cause" relatedEventInstance="ei335" /><RLINK eventInstanceID="ei342" lid="l48" relType="cause" relatedEventInstance="ei340" /><RLINK eventInstanceID="ei342" lid="l49" relType="cause" relatedEventInstance="ei339" /><RLINK eventInstanceID="ei344" lid="l50" relType="cause" relatedEventInstance="ei343" /></TimeML>

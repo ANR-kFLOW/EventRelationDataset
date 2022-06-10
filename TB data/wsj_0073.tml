@@ -74,4 +74,4 @@ Hallwood, a Cleveland merchant bank, <EVENT class="STATE" eid="e2002">owns</EVEN
 <ALINK eventInstanceID="ei2156" lid="l22" relType="INITIATES" relatedToEventInstance="ei2157" />
 <ALINK eventInstanceID="ei2167" lid="l23" relType="TERMINATES" relatedToEventInstance="ei2166" />
 
-</TimeML>
+<RLINK eventInstanceID="ei2161" lid="l26" relType="enable" relatedEventInstance="ei2163" /><RLINK eventInstanceID="ei2161" lid="l27" relType="enable" relatedEventInstance="ei2165" /></TimeML>

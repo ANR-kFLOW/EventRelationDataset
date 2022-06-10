@@ -60,4 +60,4 @@ It will <EVENT class="STATE" eid="e24" stem="have">have</EVENT> 11.8 million sha
 <SLINK eventInstanceID="ei122" lid="l19" relType="MODAL" subordinatedEventInstance="ei125" />
 
 
-<RLINK eventInstanceID="ei125" lid="l20" relType="intention" relatedEventInstance="ei122" /><RLINK eventInstanceID="ei122" lid="l21" relType="intention" relatedEventInstance="ei124" /><RLINK eventInstanceID="ei122" lid="l22" relType="intention" relatedEventInstance="ei123" /></TimeML>
+<RLINK eventInstanceID="ei125" lid="l20" relType="intention" relatedEventInstance="ei122" /><RLINK eventInstanceID="ei122" lid="l21" relType="intention" relatedEventInstance="ei124" /><RLINK eventInstanceID="ei122" lid="l22" relType="intention" relatedEventInstance="ei123" /><RLINK eventInstanceID="ei128" lid="l23" relType="cause" relatedEventInstance="ei129" /></TimeML>

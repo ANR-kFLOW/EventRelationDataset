@@ -77,4 +77,4 @@ Sales were C<EVENT class="STATE" eid="e49">$348.2</EVENT> million compared with 
 <SLINK eventInstanceID="ei169" lid="l19" relType="MODAL" subordinatedEventInstance="ei171" />
 <SLINK eventInstanceID="ei172" lid="l20" relType="EVIDENTIAL" subordinatedEventInstance="ei178" />
 
-</TimeML>
+<RLINK eventInstanceID="ei164" lid="l26" relType="cause" relatedEventInstance="ei166" /><RLINK eventInstanceID="ei169" lid="l27" relType="cause" relatedEventInstance="ei171" /></TimeML>

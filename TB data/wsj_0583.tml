@@ -275,4 +275,4 @@ He <EVENT class="OCCURRENCE" eid="e162">took</EVENT> Polly Peck, once a small fa
 <SLINK eventInstanceID="ei2073" lid="l90" relType="EVIDENTIAL" subordinatedEventInstance="ei2074" />
 
 
-<RLINK eventInstanceID="ei2000" lid="l104" relType="cause" relatedEventInstance="ei1998" /></TimeML>
+<RLINK eventInstanceID="ei2000" lid="l104" relType="cause" relatedEventInstance="ei1998" /><RLINK eventInstanceID="ei2024" lid="l105" relType="cause" relatedEventInstance="ei2025" /><RLINK eventInstanceID="ei2034" lid="l106" relType="cause" relatedEventInstance="ei2033" /><RLINK eventInstanceID="ei2068" lid="l107" relType="cause" relatedEventInstance="ei2069" /></TimeML>

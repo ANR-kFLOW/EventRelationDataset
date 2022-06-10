@@ -142,4 +142,4 @@ Profit for its commercial insurance division <EVENT class="OCCURRENCE" eid="e28"
 
 <ALINK eventInstanceID="ei2004" lid="l45" relType="INITIATES" relatedToEventInstance="ei2005" />
 
-<RLINK eventInstanceID="ei2008" lid="l54" relType="cause" relatedEventInstance="ei2010" /></TimeML>
+<RLINK eventInstanceID="ei1995" lid="l54" relType="cause" relatedEventInstance="ei1992" /><RLINK eventInstanceID="ei1996" lid="l55" relType="cause" relatedEventInstance="ei1997" /><RLINK eventInstanceID="ei2008" lid="l56" relType="cause" relatedEventInstance="ei2010" /></TimeML>

@@ -102,4 +102,4 @@ In addition, operating <EVENT class="OCCURRENCE" eid="e17">results</EVENT> were 
 
 
 
-</TimeML>
+<RLINK eventInstanceID="ei325" lid="l34" relType="cause" relatedEventInstance="ei323" /><RLINK eventInstanceID="ei331" lid="l35" relType="cause" relatedEventInstance="ei330" /></TimeML>

@@ -84,4 +84,4 @@ Revenue <EVENT class="STATE" eid="e6">totaled</EVENT> $1.01 billion, a 43% <EVEN
 
 <ALINK eventInstanceID="ei2010" lid="l17" relType="CONTINUES" relatedToEventInstance="ei2011" />
 
-</TimeML>
+<RLINK eventInstanceID="ei2004" lid="l28" relType="cause" relatedEventInstance="ei2003" /></TimeML>

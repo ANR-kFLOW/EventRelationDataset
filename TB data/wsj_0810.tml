@@ -316,4 +316,4 @@ The Paribas offer values Navigation Mixte at about 23 billion francs, depending 
 <ALINK eventInstanceID="ei2723" lid="l114" relType="INITIATES" relatedToEventInstance="ei2722" />
 <ALINK eventInstanceID="ei2667" lid="l113" relType="REINITIATES" relatedToEventInstance="ei2668" />
 
-<RLINK eventInstanceID="ei2695" lid="l132" relType="cause" relatedEventInstance="ei2694" /></TimeML>
+<RLINK eventInstanceID="ei2652" lid="l132" relType="cause" relatedEventInstance="ei2651" /><RLINK eventInstanceID="ei2695" lid="l133" relType="cause" relatedEventInstance="ei2694" /></TimeML>

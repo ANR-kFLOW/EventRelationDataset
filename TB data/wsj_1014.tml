@@ -306,4 +306,4 @@ Both Coors and Stroh have recently been <EVENT class="OCCURRENCE" eid="e158">ced
 <ALINK eventInstanceID="ei2263" lid="l101" relType="CONTINUES" relatedToEventInstance="ei2264" />
 <ALINK eventInstanceID="ei2326" lid="l102" relType="CONTINUES" relatedToEventInstance="ei2327" />
 
-</TimeML>
+<RLINK eventInstanceID="ei2258" lid="l124" relType="cause" relatedEventInstance="ei2262" /><RLINK eventInstanceID="ei2258" lid="l125" relType="cause" relatedEventInstance="ei2264" /><RLINK eventInstanceID="ei2308" lid="l126" relType="cause" relatedEventInstance="ei2307" /></TimeML>

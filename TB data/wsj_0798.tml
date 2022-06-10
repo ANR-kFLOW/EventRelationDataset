@@ -102,4 +102,4 @@ The <EVENT class="OCCURRENCE" eid="e33" stem="move">move</EVENT> was <EVENT clas
 <ALINK eventInstanceID="ei239" lid="l34" relType="TERMINATES" relatedToEventInstance="ei240" />
 
 
-<RLINK eventInstanceID="ei215" lid="l40" relType="intention" relatedEventInstance="ei213" /></TimeML>
+<RLINK eventInstanceID="ei215" lid="l40" relType="intention" relatedEventInstance="ei213" /><RLINK eventInstanceID="ei221" lid="l41" relType="enable" relatedEventInstance="ei223" /></TimeML>

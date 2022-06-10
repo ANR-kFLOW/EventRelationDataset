@@ -110,4 +110,4 @@ In addition, Hewlett-Packard <EVENT class="OCCURRENCE" eid="e36">acquired</EVENT
 <SLINK eventInstanceID="ei337" lid="l44" relType="EVIDENTIAL" subordinatedEventInstance="ei327" />
 <SLINK eventInstanceID="ei337" lid="l45" relType="FACTIVE" subordinatedEventInstance="ei326" />
 
-</TimeML>
+<RLINK eventInstanceID="ei329" lid="l47" relType="cause" relatedEventInstance="ei327" /><RLINK eventInstanceID="ei328" lid="l48" relType="cause" relatedEventInstance="ei327" /><RLINK eventInstanceID="ei333" lid="l49" relType="cause" relatedEventInstance="ei335" /></TimeML>

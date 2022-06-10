@@ -237,4 +237,4 @@ Mr. Nadeau <EVENT class="REPORTING" eid="e110">said</EVENT> he <EVENT class="I_S
 
 <ALINK eventInstanceID="ei2016" lid="l60" relType="CULMINATES" relatedToEventInstance="ei2014" />
 
-<RLINK eventInstanceID="ei2027" lid="l87" relType="intention" relatedEventInstance="ei2030" /></TimeML>
+<RLINK eventInstanceID="ei2027" lid="l87" relType="intention" relatedEventInstance="ei2030" /><RLINK eventInstanceID="ei1996" lid="l88" relType="cause" relatedEventInstance="ei1999" /><RLINK eventInstanceID="ei2041" lid="l89" relType="cause" relatedEventInstance="ei2040" /></TimeML>

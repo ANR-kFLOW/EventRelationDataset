@@ -65,4 +65,4 @@ The loan may be <EVENT class="OCCURRENCE" eid="e10">extended</EVENT> by the McAl
 <ALINK eventInstanceID="ei137" lid="l21" relType="INITIATES" relatedToEventInstance="ei139" />
 <ALINK eventInstanceID="ei138" lid="l22" relType="INITIATES" relatedToEventInstance="ei139" />
 
-</TimeML>
+<RLINK eventInstanceID="ei136" lid="l24" relType="cause" relatedEventInstance="ei139" /></TimeML>

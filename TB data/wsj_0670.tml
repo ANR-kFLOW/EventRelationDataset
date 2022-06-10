@@ -104,4 +104,4 @@ Revenue was $778.6 million.
 
 <ALINK eventInstanceID="ei2007" lid="l36" relType="CONTINUES" relatedToEventInstance="ei2008" />
 
-</TimeML>
+<RLINK eventInstanceID="ei2005" lid="l38" relType="cause" relatedEventInstance="ei2003" /></TimeML>

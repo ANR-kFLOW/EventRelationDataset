@@ -55,4 +55,4 @@ In national over-the-counter <EVENT class="OCCURRENCE" eid="e10">trading</EVENT>
 <SLINK eventInstanceID="ei103" lid="l16" relType="EVIDENTIAL" subordinatedEventInstance="ei100" />
 <SLINK eventInstanceID="ei101" lid="l17" relType="FACTIVE" subordinatedEventInstance="ei102" />
 
-</TimeML>
+<RLINK eventInstanceID="ei104" lid="l19" relType="cause" relatedEventInstance="ei105" /></TimeML>

@@ -91,4 +91,4 @@ Cara, a food services chain operator and Unicorp, a holding company, are based i
 
 <ALINK eventInstanceID="ei219" lid="l28" relType="TERMINATES" relatedToEventInstance="ei240" />
 <ALINK eventInstanceID="ei223" lid="l25" relType="INITIATES" relatedToEventInstance="ei224" />
-<RLINK eventInstanceID="ei223" lid="l35" relType="intention" relatedEventInstance="ei226" /><RLINK eventInstanceID="ei222" lid="l36" relType="cause" relatedEventInstance="ei219" /></TimeML>
+<RLINK eventInstanceID="ei223" lid="l35" relType="intention" relatedEventInstance="ei226" /><RLINK eventInstanceID="ei237" lid="l36" relType="enable" relatedEventInstance="ei239" /><RLINK eventInstanceID="ei222" lid="l37" relType="cause" relatedEventInstance="ei219" /></TimeML>

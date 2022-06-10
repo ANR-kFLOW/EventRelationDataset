@@ -142,4 +142,4 @@ Dow Jones, which owns 67% of Telerate, publishes The Wall Street Journal, Barron
 <ALINK eventInstanceID="ei371" lid="l54" relType="INITIATES" relatedToEventInstance="ei372" />
 <ALINK eventInstanceID="ei395" lid="l53" relType="INITIATES" relatedToEventInstance="ei396" />
 
-<RLINK eventInstanceID="ei365" lid="l59" relType="enable" relatedEventInstance="ei368" /></TimeML>
+<RLINK eventInstanceID="ei365" lid="l59" relType="enable" relatedEventInstance="ei368" /><RLINK eventInstanceID="ei371" lid="l60" relType="cause" relatedEventInstance="ei370" /><RLINK eventInstanceID="ei372" lid="l61" relType="cause" relatedEventInstance="ei370" /></TimeML>

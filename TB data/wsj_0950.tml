@@ -238,4 +238,4 @@ The company has <EVENT class="REPORTING" eid="e67">said</EVENT> it <EVENT class=
 <SLINK eventInstanceID="ei2055" lid="l51" relType="EVIDENTIAL" subordinatedEventInstance="ei2056" />
 <SLINK eventInstanceID="ei2056" lid="l52" relType="MODAL" subordinatedEventInstance="ei2057" />
 
-<RLINK eventInstanceID="ei2012" lid="l80" relType="cause" relatedEventInstance="ei2007" /></TimeML>
+<RLINK eventInstanceID="ei2012" lid="l80" relType="cause" relatedEventInstance="ei2007" /><RLINK eventInstanceID="ei2015" lid="l81" relType="cause" relatedEventInstance="ei2016" /><RLINK eventInstanceID="ei2037" lid="l82" relType="cause" relatedEventInstance="ei2036" /></TimeML>
