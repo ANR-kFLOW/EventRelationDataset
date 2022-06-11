@@ -1,0 +1,156 @@
+<TimeML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://timeml.org/timeMLdocs/TimeML_1.2.1.xsd">
+
+
+ APW19980213.1380 
+ NEWS STORY 
+ <TIMEX3 functionInDocument="CREATION_TIME" temporalFunction="false" tid="t30" type="TIME" value="1998-02-13T15:44:00">02/13/1998 15:44:00</TIMEX3> 
+
+w2227 Cx1f wstm-
+r i Cx13  Cx11  BC-PuertoRico-HostageKil     02-13 0243
+
+
+ BC-Puerto Rico-Hostage Killed,0246 
+
+Police <EVENT class="OCCURRENCE" eid="e41">discover</EVENT> <EVENT class="OCCURRENCE" eid="e40">dismembered</EVENT> body of man <EVENT class="OCCURRENCE" eid="e39">kidnapped</EVENT> Wednesday
+
+UR By HILARIO DE LEON QC
+UR Associated Press Writer QC
+
+
+CAGUAS, Puerto Rico (AP) _ Kidnappers <EVENT class="ASPECTUAL" eid="e1">kept</EVENT> their <EVENT class="I_ACTION" eid="e42">promise</EVENT> to <EVENT class="OCCURRENCE" eid="e2">kill</EVENT>
+a store owner they <EVENT class="OCCURRENCE" eid="e3">took</EVENT> <EVENT class="OCCURRENCE" eid="e43">hostage</EVENT> and police <EVENT class="OCCURRENCE" eid="e4">found</EVENT> the man's
+<EVENT class="OCCURRENCE" eid="e5">dismembered</EVENT> and <EVENT class="OCCURRENCE" eid="e44">decapitated</EVENT> body <TIMEX3 anchorTimeID="t30" functionInDocument="NONE" temporalFunction="true" tid="t33" type="DATE" value="1998-02-13">Friday</TIMEX3> <EVENT class="OCCURRENCE" eid="e6">wrapped</EVENT> in plastic garbage
+bags.
+Police <EVENT class="REPORTING" eid="e8">confirmed</EVENT> <TIMEX3 anchorTimeID="t30" functionInDocument="NONE" temporalFunction="true" tid="t39" type="DATE" value="1998-02-13">Friday</TIMEX3> that the body <EVENT class="OCCURRENCE" eid="e9">found</EVENT> along a highway in
+this municipality 15 miles south of San Juan <EVENT class="STATE" eid="e10">belonged</EVENT> to Jorge
+Hernandez, 49.
+Hernandez  was <EVENT class="OCCURRENCE" eid="e11">kidnapped</EVENT> from his small, neighborhood store in
+the town of Trujillo Alto <SIGNAL sid="s45">at</SIGNAL> <TIMEX3 anchorTimeID="t30" functionInDocument="NONE" temporalFunction="true" tid="t35" type="TIME" value="1998-02-11T22:00">10 p.m. Wednesday</TIMEX3>, police <EVENT class="REPORTING" eid="e12">said</EVENT>. His
+kidnappers <EVENT class="I_ACTION" eid="e13">demanded</EVENT> a <EVENT class="OCCURRENCE" eid="e162">ransom</EVENT> of dlrs 1 million, but <EVENT class="OCCURRENCE" eid="e47">negotiations</EVENT>
+<EVENT class="ASPECTUAL" eid="e14">broke</EVENT> off <SIGNAL sid="s187">at</SIGNAL> <TIMEX3 anchorTimeID="t30" functionInDocument="NONE" temporalFunction="true" tid="t36" type="TIME" value="1998-02-12T12:00">noon Thursday</TIMEX3>.
+Police <EVENT class="REPORTING" eid="e15">gave</EVENT> no details about the <EVENT class="I_ACTION" eid="e48">negotiations</EVENT> with the
+kidnappers for the <EVENT class="OCCURRENCE" eid="e50">return</EVENT> of Hernandez.
+The store owner's body  was <EVENT class="OCCURRENCE" eid="e17">found</EVENT> with the arms and head <EVENT class="OCCURRENCE" eid="e51">cut</EVENT> off
+and the parts <EVENT class="OCCURRENCE" eid="e18">stuffed</EVENT> in separate garbage bags. A passerby <EVENT class="OCCURRENCE" eid="e20">called</EVENT>
+police  to <EVENT class="OCCURRENCE" eid="e21">report</EVENT> the body alongside the road.
+Puerto Rico Police Superintendent Pedro Toledo <EVENT class="I_ACTION" eid="e22">urged</EVENT> people who
+might  be <EVENT class="OCCURRENCE" eid="e23">targeted</EVENT> by kidnappers to be <EVENT class="STATE" eid="e25">alert</EVENT>.
+``There has been an <EVENT class="OCCURRENCE" eid="e26">increase</EVENT> in Puerto Rico in this kind of
+thing and some of these bands of kidnappers  are <EVENT class="STATE" eid="e27">made</EVENT> up of
+foreigners,'' Toledo <EVENT class="REPORTING" eid="e28">said</EVENT>.
+While some Latin American countries such as Mexico and Colombia
+ have <EVENT class="OCCURRENCE" eid="e29">suffered</EVENT> from a rash of <EVENT class="OCCURRENCE" eid="e276">kidnappings</EVENT> <SIGNAL sid="s52">in</SIGNAL> <TIMEX3 anchorTimeID="t30" functionInDocument="NONE" temporalFunction="true" tid="t37" type="DURATION" value="PXY">recent years</TIMEX3>, the <EVENT class="OCCURRENCE" eid="e281">crime</EVENT>
+has not been <EVENT class="STATE" eid="e54">common</EVENT> in this U.S. commonwealth.
+
+(PROFILE
+(WS SL:BC-Puerto Rico-Hostage Killed; CT:i;
+(REG:CRB;)
+(REG:ENGL;)
+(LANG:ENGLISH;))
+)
+
+
+AP-NY-02-13-98 1544EST
+
+
+
+
+<MAKEINSTANCE aspect="NONE" eiid="ei302" eventID="e41" polarity="POS" pos="VERB" tense="PRESENT" />
+<MAKEINSTANCE aspect="NONE" eiid="ei303" eventID="e40" polarity="POS" pos="ADJECTIVE" tense="NONE" />
+<MAKEINSTANCE aspect="NONE" eiid="ei304" eventID="e39" polarity="POS" pos="VERB" tense="PASTPART" />
+<MAKEINSTANCE aspect="NONE" eiid="ei305" eventID="e1" polarity="POS" pos="VERB" tense="PAST" />
+<MAKEINSTANCE aspect="NONE" eiid="ei306" eventID="e42" polarity="POS" pos="NOUN" tense="NONE" />
+<MAKEINSTANCE aspect="NONE" eiid="ei307" eventID="e2" polarity="POS" pos="VERB" tense="INFINITIVE" />
+<MAKEINSTANCE aspect="NONE" eiid="ei308" eventID="e3" polarity="POS" pos="VERB" tense="PAST" />
+<MAKEINSTANCE aspect="NONE" eiid="ei309" eventID="e43" polarity="POS" pos="NOUN" tense="NONE" />
+<MAKEINSTANCE aspect="NONE" eiid="ei310" eventID="e4" polarity="POS" pos="VERB" tense="PAST" />
+<MAKEINSTANCE aspect="NONE" eiid="ei311" eventID="e5" polarity="POS" pos="ADJECTIVE" tense="NONE" />
+<MAKEINSTANCE aspect="NONE" eiid="ei312" eventID="e44" polarity="POS" pos="ADJECTIVE" tense="NONE" />
+<MAKEINSTANCE aspect="NONE" eiid="ei313" eventID="e6" polarity="POS" pos="VERB" tense="PASTPART" />
+<MAKEINSTANCE aspect="NONE" eiid="ei314" eventID="e8" polarity="POS" pos="VERB" tense="PAST" />
+<MAKEINSTANCE aspect="NONE" eiid="ei315" eventID="e9" polarity="POS" pos="VERB" tense="PAST" />
+<MAKEINSTANCE aspect="NONE" eiid="ei316" eventID="e10" polarity="POS" pos="VERB" tense="PAST" />
+<MAKEINSTANCE aspect="NONE" eiid="ei317" eventID="e11" polarity="POS" pos="VERB" tense="PAST" />
+<MAKEINSTANCE aspect="NONE" eiid="ei318" eventID="e12" polarity="POS" pos="VERB" tense="PAST" />
+<MAKEINSTANCE aspect="NONE" eiid="ei319" eventID="e13" polarity="POS" pos="VERB" tense="PAST" />
+<MAKEINSTANCE aspect="NONE" eiid="ei320" eventID="e162" polarity="POS" pos="NOUN" tense="NONE" />
+<MAKEINSTANCE aspect="NONE" eiid="ei321" eventID="e47" polarity="POS" pos="NOUN" tense="NONE" />
+<MAKEINSTANCE aspect="NONE" eiid="ei322" eventID="e14" polarity="POS" pos="VERB" tense="PAST" />
+<MAKEINSTANCE aspect="NONE" eiid="ei323" eventID="e15" polarity="POS" pos="VERB" tense="PAST" />
+<MAKEINSTANCE aspect="NONE" eiid="ei324" eventID="e48" polarity="POS" pos="NOUN" tense="NONE" />
+<MAKEINSTANCE aspect="NONE" eiid="ei325" eventID="e50" polarity="POS" pos="NOUN" tense="NONE" />
+<MAKEINSTANCE aspect="NONE" eiid="ei326" eventID="e17" polarity="POS" pos="VERB" tense="PAST" />
+<MAKEINSTANCE aspect="NONE" eiid="ei327" eventID="e51" polarity="POS" pos="VERB" tense="PAST" />
+<MAKEINSTANCE aspect="NONE" eiid="ei328" eventID="e18" polarity="POS" pos="VERB" tense="PAST" />
+<MAKEINSTANCE aspect="NONE" eiid="ei329" eventID="e20" polarity="POS" pos="VERB" tense="PAST" />
+<MAKEINSTANCE aspect="NONE" eiid="ei330" eventID="e21" polarity="POS" pos="VERB" tense="INFINITIVE" />
+<MAKEINSTANCE aspect="NONE" eiid="ei331" eventID="e22" polarity="POS" pos="VERB" tense="PAST" />
+<MAKEINSTANCE aspect="NONE" eiid="ei332" eventID="e23" modality="might" polarity="POS" pos="VERB" tense="NONE" />
+<MAKEINSTANCE aspect="NONE" eiid="ei333" eventID="e25" polarity="POS" pos="ADJECTIVE" tense="PRESENT" />
+<MAKEINSTANCE aspect="NONE" eiid="ei334" eventID="e26" polarity="POS" pos="NOUN" tense="NONE" />
+<MAKEINSTANCE aspect="NONE" eiid="ei335" eventID="e27" polarity="POS" pos="VERB" tense="PRESENT" />
+<MAKEINSTANCE aspect="NONE" eiid="ei336" eventID="e28" polarity="POS" pos="VERB" tense="PAST" />
+<MAKEINSTANCE aspect="PERFECTIVE" eiid="ei337" eventID="e29" polarity="POS" pos="VERB" tense="PRESENT" />
+<MAKEINSTANCE aspect="NONE" eiid="ei338" eventID="e276" polarity="POS" pos="NOUN" tense="NONE" />
+<MAKEINSTANCE aspect="NONE" eiid="ei339" eventID="e281" polarity="POS" pos="NOUN" tense="NONE" />
+<MAKEINSTANCE aspect="PERFECTIVE" eiid="ei340" eventID="e54" polarity="NEG" pos="ADJECTIVE" tense="PRESENT" />
+
+<TLINK eventInstanceID="ei340" lid="l55" relType="IS_INCLUDED" relatedToTime="t37" />
+<TLINK eventInstanceID="ei332" lid="l54" relType="AFTER" relatedToEventInstance="ei331" />
+<TLINK eventInstanceID="ei323" lid="l53" relType="IS_INCLUDED" relatedToTime="t30" />
+<TLINK eventInstanceID="ei318" lid="l52" relType="IS_INCLUDED" relatedToTime="t30" />
+<TLINK eventInstanceID="ei306" lid="l51" relType="BEFORE" relatedToEventInstance="ei307" />
+
+<TLINK eventInstanceID="ei338" lid="l2" relType="IDENTITY" relatedToEventInstance="ei339" />
+
+
+
+
+
+<TLINK eventInstanceID="ei303" lid="l8" relType="AFTER" relatedToEventInstance="ei304" />
+<TLINK eventInstanceID="ei303" lid="l9" relType="BEFORE" relatedToEventInstance="ei302" />
+<TLINK eventInstanceID="ei305" lid="l10" relType="BEFORE" relatedToTime="t30" />
+<TLINK eventInstanceID="ei305" lid="l11" relType="AFTER" relatedToEventInstance="ei304" />
+<TLINK eventInstanceID="ei308" lid="l12" relType="IDENTITY" relatedToEventInstance="ei309" />
+<TLINK eventInstanceID="ei308" lid="l13" relType="IDENTITY" relatedToEventInstance="ei304" />
+<TLINK eventInstanceID="ei310" lid="l14" relType="IDENTITY" relatedToEventInstance="ei302" />
+<TLINK eventInstanceID="ei311" lid="l15" relType="IDENTITY" relatedToEventInstance="ei303" />
+<TLINK eventInstanceID="ei311" lid="l16" relType="IS_INCLUDED" relatedToEventInstance="ei327" />
+<TLINK eventInstanceID="ei312" lid="l17" relType="IS_INCLUDED" relatedToEventInstance="ei327" />
+
+<TLINK eventInstanceID="ei313" lid="l19" relType="AFTER" relatedToEventInstance="ei327" />
+<TLINK eventInstanceID="ei314" lid="l20" relType="IS_INCLUDED" relatedToEventInstance="ei315" />
+<TLINK eventInstanceID="ei315" lid="l21" relType="IDENTITY" relatedToTime="t33" />
+<TLINK eventInstanceID="ei315" lid="l22" relType="IDENTITY" relatedToEventInstance="ei310" />
+<TLINK eventInstanceID="ei316" lid="l23" relType="BEFORE" relatedToEventInstance="ei315" />
+<TLINK eventInstanceID="ei317" lid="l24" relType="IDENTITY" relatedToEventInstance="ei304" />
+<TLINK eventInstanceID="ei317" lid="l25" relType="IS_INCLUDED" relatedToTime="t35" signalID="s45" />
+<TLINK eventInstanceID="ei319" lid="l26" relType="AFTER" relatedToEventInstance="ei317" />
+<TLINK eventInstanceID="ei321" lid="l27" relType="AFTER" relatedToEventInstance="ei319" />
+<TLINK eventInstanceID="ei322" lid="l28" relType="SIMULTANEOUS" relatedToTime="t36" signalID="s187" />
+<TLINK eventInstanceID="ei324" lid="l29" relType="IDENTITY" relatedToEventInstance="ei321" />
+<TLINK eventInstanceID="ei326" lid="l30" relType="IDENTITY" relatedToEventInstance="ei315" />
+<TLINK eventInstanceID="ei328" lid="l31" relType="IDENTITY" relatedToEventInstance="ei313" />
+<TLINK eventInstanceID="ei329" lid="l32" relType="BEFORE" relatedToEventInstance="ei326" />
+<TLINK eventInstanceID="ei330" lid="l33" relType="BEFORE" relatedToEventInstance="ei326" />
+<TLINK eventInstanceID="ei331" lid="l34" relType="AFTER" relatedToEventInstance="ei326" />
+<TLINK eventInstanceID="ei336" lid="l35" relType="SIMULTANEOUS" relatedToEventInstance="ei331" />
+
+<TLINK eventInstanceID="ei337" lid="l37" relType="IS_INCLUDED" relatedToTime="t37" signalID="s52" />
+<TLINK eventInstanceID="ei337" lid="l38" relType="INCLUDES" relatedToEventInstance="ei338" />
+
+<SLINK eventInstanceID="ei337" lid="l50" relType="FACTIVE" subordinatedEventInstance="ei338" />
+<SLINK eventInstanceID="ei306" lid="l39" relType="MODAL" subordinatedEventInstance="ei307" />
+<SLINK eventInstanceID="ei314" lid="l40" relType="EVIDENTIAL" subordinatedEventInstance="ei316" />
+<SLINK eventInstanceID="ei318" lid="l41" relType="EVIDENTIAL" subordinatedEventInstance="ei317" />
+<SLINK eventInstanceID="ei319" lid="l42" relType="MODAL" subordinatedEventInstance="ei320" />
+<SLINK eventInstanceID="ei324" lid="l43" relType="MODAL" subordinatedEventInstance="ei325" />
+<SLINK eventInstanceID="ei329" lid="l44" relType="MODAL" subordinatedEventInstance="ei330" />
+<SLINK eventInstanceID="ei331" lid="l45" relType="MODAL" subordinatedEventInstance="ei333" />
+<SLINK eventInstanceID="ei336" lid="l46" relType="EVIDENTIAL" subordinatedEventInstance="ei334" />
+<SLINK eventInstanceID="ei336" lid="l47" relType="EVIDENTIAL" subordinatedEventInstance="ei335" />
+
+<ALINK eventInstanceID="ei305" lid="l48" relType="CULMINATES" relatedToEventInstance="ei306" />
+<ALINK eventInstanceID="ei322" lid="l49" relType="TERMINATES" relatedToEventInstance="ei321" />
+
+</TimeML>

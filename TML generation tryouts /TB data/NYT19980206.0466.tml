@@ -1,0 +1,166 @@
+<TimeML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://timeml.org/timeMLdocs/TimeML_1.2.1.xsd">
+
+
+ NYT19980206.0466 
+ NEWS STORY 
+ <TIMEX3 functionInDocument="CREATION_TIME" temporalFunction="false" tid="t28" type="TIME" value="1998-02-06T22:29:00">02/06/1998 22:29:00</TIMEX3> 
+
+A6982 Cx1f taf-z
+u w Cx13  Cx11  BC-CLINTON-CURRIE-NYT LR      02-06 0277
+
+
+ BC-CLINTON-CURRIE-NYT 
+
+STATEMENTS CONCERNING MRS. CURRIE
+
+UR (bl) LR  QL
+UR c.1998 N.Y. Times News Service LR  QC   QL
+
+
+WASHINGTON _ Following are <EVENT class="REPORTING" eid="e2">statements</EVENT> <EVENT class="REPORTING" eid="e3">made</EVENT> <TIMEX3 anchorTimeID="t28" functionInDocument="NONE" temporalFunction="true" tid="t30" type="DATE" value="1998-02-06">Friday</TIMEX3> and <TIMEX3 anchorTimeID="t28" functionInDocument="NONE" temporalFunction="true" tid="t31" type="DATE" value="1998-02-05">Thursday</TIMEX3>
+by Lawrence Wechsler, a lawyer for the White House secretary, Betty
+Currie; the White House; White House spokesman Mike McCurry, and
+President Clinton in response to an <EVENT class="REPORTING" eid="e43">article</EVENT> in The New York Times
+on <TIMEX3 anchorTimeID="t28" functionInDocument="NONE" temporalFunction="true" tid="t32" type="DATE" value="1998-02-06">Friday</TIMEX3> about her <EVENT class="REPORTING" eid="e44">statements</EVENT> regarding a <EVENT class="OCCURRENCE" eid="e45">meeting</EVENT> with the
+president:
+Wechsler <SIGNAL sid="s71">on</SIGNAL> <TIMEX3 anchorTimeID="t28" functionInDocument="NONE" temporalFunction="true" tid="t33" type="DATE" value="1998-02-05">Thursday</TIMEX3>
+``Without <EVENT class="I_ACTION" eid="e5">commenting</EVENT> on the <EVENT class="I_ACTION" eid="e6">allegations</EVENT> <EVENT class="I_ACTION" eid="e8">raised</EVENT> in this article,
+to the extent that there is any <EVENT class="I_STATE" eid="e48">implication</EVENT> or <EVENT class="I_ACTION" eid="e49">suggestion</EVENT> that Mrs.
+Currie was <EVENT class="I_STATE" eid="e50">aware</EVENT> of any legal or ethical <EVENT class="STATE" eid="e51">impropriety</EVENT> by anyone,
+that <EVENT class="I_STATE" eid="e52">implication</EVENT> or <EVENT class="I_ACTION" eid="e53">suggestion</EVENT> is entirely <EVENT class="STATE" eid="e54">inaccurate</EVENT>.''
+White House on <TIMEX3 anchorTimeID="t28" functionInDocument="NONE" temporalFunction="true" tid="t34" type="DATE" value="1998-02-05">Thursday</TIMEX3>
+``<SIGNAL sid="s55">For</SIGNAL> <TIMEX3 anchorTimeID="t34" functionInDocument="NONE" temporalFunction="true" tid="t35" type="DURATION" value="PXW">the past few weeks</TIMEX3> we 've  been <EVENT class="OCCURRENCE" eid="e11">subjected</EVENT> to false <EVENT class="REPORTING" eid="e56">leaks</EVENT>
+<EVENT class="I_ACTION" eid="e57">designed</EVENT>  to <EVENT class="I_ACTION" eid="e13">mislead</EVENT> both reporters and the American public. We're not going  to <EVENT class="I_ACTION" eid="e16">dignify</EVENT> the <TIMEX3 anchorTimeID="t34" functionInDocument="NONE" temporalFunction="true" tid="t36" type="DATE" value="PAST_REF">latest</TIMEX3> false <EVENT class="REPORTING" eid="e58">leak</EVENT> with a <EVENT class="I_ACTION" eid="e59">response</EVENT>.''
+McCurry <SIGNAL sid="s75">on</SIGNAL> <TIMEX3 anchorTimeID="t28" functionInDocument="NONE" temporalFunction="true" tid="t37" type="DATE" value="1998-02-06">Friday</TIMEX3>
+``I <EVENT class="I_ACTION" eid="e17">want</EVENT> to be absolutely <EVENT class="I_STATE" eid="e60">clear</EVENT>, to the extent there is any
+<EVENT class="I_STATE" eid="e61">implication</EVENT> or the slightest <EVENT class="I_ACTION" eid="e62">suggestion</EVENT> that Mrs. Currie <EVENT class="I_STATE" eid="e18">believes</EVENT>
+that the President or anyone else <EVENT class="I_ACTION" eid="e19">tried</EVENT>  to <EVENT class="I_ACTION" eid="e20">influence</EVENT> her
+<EVENT class="I_STATE" eid="e63">recollection</EVENT>, that is absolutely <EVENT class="STATE" eid="e64">false</EVENT> and a <EVENT class="REPORTING" eid="e65">mischaracterization</EVENT> of
+the facts. I  am <EVENT class="I_STATE" eid="e21">shocked</EVENT> and <EVENT class="I_STATE" eid="e66">dismayed</EVENT> by the numerous <EVENT class="REPORTING" eid="e67">leaks</EVENT>
+regarding Mrs. Currie's grand jury <EVENT class="REPORTING" eid="e69">testimony</EVENT>.''
+Clinton <SIGNAL sid="s76">on</SIGNAL> <TIMEX3 anchorTimeID="t28" functionInDocument="NONE" temporalFunction="true" tid="t38" type="DATE" value="1998-02-06">Friday</TIMEX3>.
+``Once again, I never <EVENT class="I_ACTION" eid="e23">asked</EVENT> anybody  to <EVENT class="I_ACTION" eid="e24">do</EVENT> anything but <EVENT class="I_ACTION" eid="e25">tell</EVENT> the
+truth. I <EVENT class="I_STATE" eid="e26">know</EVENT> about the <EVENT class="REPORTING" eid="e79">stories</EVENT> <TIMEX3 anchorTimeID="t38" functionInDocument="NONE" temporalFunction="true" tid="t39" type="DATE" value="1998-02-06">today</TIMEX3>. I was <EVENT class="I_STATE" eid="e80">pleased</EVENT> that Ms.
+Currie's lawyers <EVENT class="I_ACTION" eid="e27">stated</EVENT> unambiguously <TIMEX3 anchorTimeID="t38" functionInDocument="NONE" temporalFunction="true" tid="t40" type="TIME" value="1998-02-06TMO">this morning</TIMEX3> _ unambiguously
+_ that she's not <EVENT class="I_STATE" eid="e81">aware</EVENT> of any unethical <EVENT class="OCCURRENCE" eid="e83">conduct</EVENT>.
+
+
+
+NYT-02-06-98 2229EST
+
+
+
+
+<MAKEINSTANCE aspect="NONE" eiid="ei509" eventID="e2" polarity="POS" pos="NOUN" tense="PRESENT" />
+<MAKEINSTANCE aspect="NONE" eiid="ei510" eventID="e3" polarity="POS" pos="VERB" tense="PAST" />
+<MAKEINSTANCE aspect="NONE" eiid="ei511" eventID="e43" polarity="POS" pos="NOUN" tense="NONE" />
+<MAKEINSTANCE aspect="NONE" eiid="ei512" eventID="e44" polarity="POS" pos="NOUN" tense="NONE" />
+<MAKEINSTANCE aspect="NONE" eiid="ei513" eventID="e45" polarity="POS" pos="NOUN" tense="NONE" />
+<MAKEINSTANCE aspect="NONE" eiid="ei514" eventID="e5" polarity="POS" pos="VERB" tense="PRESPART" />
+<MAKEINSTANCE aspect="NONE" eiid="ei515" eventID="e6" polarity="POS" pos="NOUN" tense="NONE" />
+<MAKEINSTANCE aspect="NONE" eiid="ei516" eventID="e8" polarity="POS" pos="VERB" tense="PASTPART" />
+
+<MAKEINSTANCE aspect="NONE" eiid="ei518" eventID="e48" polarity="POS" pos="NOUN" tense="PRESENT" />
+<MAKEINSTANCE aspect="NONE" eiid="ei519" eventID="e49" polarity="POS" pos="NOUN" tense="NONE" />
+<MAKEINSTANCE aspect="NONE" eiid="ei520" eventID="e50" polarity="POS" pos="ADJECTIVE" tense="PAST" />
+<MAKEINSTANCE aspect="NONE" eiid="ei521" eventID="e51" polarity="POS" pos="NOUN" tense="NONE" />
+<MAKEINSTANCE aspect="NONE" eiid="ei522" eventID="e52" polarity="POS" pos="NOUN" tense="NONE" />
+<MAKEINSTANCE aspect="NONE" eiid="ei523" eventID="e53" polarity="POS" pos="NOUN" tense="NONE" />
+<MAKEINSTANCE aspect="NONE" eiid="ei524" eventID="e54" polarity="POS" pos="ADJECTIVE" tense="PRESENT" />
+<MAKEINSTANCE aspect="PERFECTIVE" eiid="ei525" eventID="e11" polarity="POS" pos="VERB" tense="PRESENT" />
+<MAKEINSTANCE aspect="NONE" eiid="ei526" eventID="e56" polarity="POS" pos="NOUN" tense="NONE" />
+<MAKEINSTANCE aspect="NONE" eiid="ei527" eventID="e57" polarity="POS" pos="VERB" tense="PAST" />
+<MAKEINSTANCE aspect="NONE" eiid="ei529" eventID="e13" polarity="POS" pos="VERB" tense="INFINITIVE" />
+<MAKEINSTANCE aspect="NONE" eiid="ei530" eventID="e16" polarity="NEG" pos="VERB" tense="FUTURE" />
+<MAKEINSTANCE aspect="NONE" eiid="ei531" eventID="e58" polarity="POS" pos="NOUN" tense="NONE" />
+<MAKEINSTANCE aspect="NONE" eiid="ei532" eventID="e59" polarity="POS" pos="NOUN" tense="NONE" />
+<MAKEINSTANCE aspect="NONE" eiid="ei533" eventID="e17" polarity="POS" pos="VERB" tense="PRESENT" />
+<MAKEINSTANCE aspect="NONE" eiid="ei534" eventID="e60" polarity="POS" pos="ADJECTIVE" tense="PRESENT" />
+<MAKEINSTANCE aspect="NONE" eiid="ei535" eventID="e61" polarity="POS" pos="NOUN" tense="NONE" />
+<MAKEINSTANCE aspect="NONE" eiid="ei536" eventID="e62" polarity="POS" pos="NOUN" tense="NONE" />
+<MAKEINSTANCE aspect="NONE" eiid="ei537" eventID="e18" polarity="POS" pos="VERB" tense="PRESENT" />
+<MAKEINSTANCE aspect="NONE" eiid="ei538" eventID="e19" polarity="POS" pos="VERB" tense="PAST" />
+<MAKEINSTANCE aspect="NONE" eiid="ei539" eventID="e20" polarity="POS" pos="VERB" tense="INFINITIVE" />
+<MAKEINSTANCE aspect="NONE" eiid="ei540" eventID="e63" polarity="POS" pos="NOUN" tense="NONE" />
+<MAKEINSTANCE aspect="NONE" eiid="ei541" eventID="e64" polarity="POS" pos="ADJECTIVE" tense="PRESENT" />
+<MAKEINSTANCE aspect="NONE" eiid="ei542" eventID="e65" polarity="POS" pos="NOUN" tense="NONE" />
+<MAKEINSTANCE aspect="NONE" eiid="ei543" eventID="e21" polarity="POS" pos="VERB" tense="PRESENT" />
+<MAKEINSTANCE aspect="NONE" eiid="ei544" eventID="e66" polarity="POS" pos="VERB" tense="PRESENT" />
+<MAKEINSTANCE aspect="NONE" eiid="ei545" eventID="e67" polarity="POS" pos="NOUN" tense="NONE" />
+<MAKEINSTANCE aspect="NONE" eiid="ei546" eventID="e69" polarity="POS" pos="NOUN" tense="NONE" />
+<MAKEINSTANCE aspect="NONE" eiid="ei547" eventID="e23" polarity="NEG" pos="VERB" tense="PAST" />
+<MAKEINSTANCE aspect="NONE" eiid="ei548" eventID="e24" polarity="POS" pos="VERB" tense="INFINITIVE" />
+<MAKEINSTANCE aspect="NONE" eiid="ei549" eventID="e25" polarity="POS" pos="VERB" tense="NONE" />
+<MAKEINSTANCE aspect="NONE" eiid="ei550" eventID="e26" polarity="POS" pos="VERB" tense="PRESENT" />
+<MAKEINSTANCE aspect="NONE" eiid="ei551" eventID="e79" polarity="POS" pos="NOUN" tense="NONE" />
+<MAKEINSTANCE aspect="NONE" eiid="ei552" eventID="e80" polarity="POS" pos="VERB" tense="PAST" />
+<MAKEINSTANCE aspect="NONE" eiid="ei553" eventID="e27" polarity="POS" pos="VERB" tense="PAST" />
+<MAKEINSTANCE aspect="NONE" eiid="ei554" eventID="e81" polarity="NEG" pos="ADJECTIVE" tense="PRESENT" />
+<MAKEINSTANCE aspect="NONE" eiid="ei555" eventID="e83" polarity="POS" pos="NOUN" tense="NONE" />
+
+<TLINK eventInstanceID="ei527" lid="l63" relType="IS_INCLUDED" relatedToTime="t35" />
+<TLINK eventInstanceID="ei511" lid="l62" relType="IS_INCLUDED" relatedToTime="t32" />
+<TLINK eventInstanceID="ei524" lid="l61" relType="IS_INCLUDED" relatedToTime="t28" />
+<TLINK eventInstanceID="ei553" lid="l1" relType="IS_INCLUDED" relatedToTime="t40" />
+<TLINK lid="l2" relType="IS_INCLUDED" relatedToTime="t38" timeID="t40" />
+<TLINK eventInstanceID="ei509" lid="l3" relType="IDENTITY" relatedToEventInstance="ei510" />
+<TLINK eventInstanceID="ei510" lid="l4" relType="IS_INCLUDED" relatedToTime="t30" />
+
+
+<TLINK lid="l7" relType="BEFORE" relatedToTime="t30" timeID="t31" />
+<TLINK lid="l8" relType="IDENTITY" relatedToTime="t30" timeID="t32" />
+<TLINK lid="l9" relType="IDENTITY" relatedToTime="t31" timeID="t33" />
+<TLINK eventInstanceID="ei514" lid="l10" relType="IS_INCLUDED" relatedToTime="t33" signalID="s71" />
+
+
+
+<TLINK eventInstanceID="ei522" lid="l14" relType="IDENTITY" relatedToEventInstance="ei518" />
+<TLINK eventInstanceID="ei523" lid="l15" relType="IDENTITY" relatedToEventInstance="ei519" />
+<TLINK lid="l16" relType="IDENTITY" relatedToTime="t31" timeID="t34" />
+<TLINK lid="l17" relType="AFTER" relatedToTime="t35" signalID="s55" timeID="t34" />
+<TLINK lid="l18" relType="IS_INCLUDED" relatedToEventInstance="ei525" timeID="t35" />
+<TLINK eventInstanceID="ei525" lid="l19" relType="INCLUDES" relatedToEventInstance="ei526" />
+<TLINK lid="l20" relType="INCLUDES" relatedToEventInstance="ei530" timeID="t34" />
+<TLINK eventInstanceID="ei532" lid="l21" relType="AFTER" relatedToEventInstance="ei531" />
+<TLINK eventInstanceID="ei533" lid="l22" relType="IS_INCLUDED" relatedToTime="t37" signalID="s75" />
+<TLINK lid="l23" relType="IDENTITY" relatedToTime="t30" timeID="t37" />
+<TLINK eventInstanceID="ei535" lid="l24" relType="IDENTITY" relatedToEventInstance="ei518" />
+<TLINK eventInstanceID="ei536" lid="l25" relType="IDENTITY" relatedToEventInstance="ei519" />
+<TLINK eventInstanceID="ei537" lid="l26" relType="SIMULTANEOUS" relatedToEventInstance="ei520" />
+<TLINK lid="l27" relType="INCLUDES" relatedToEventInstance="ei543" timeID="t37" />
+<TLINK lid="l28" relType="INCLUDES" relatedToEventInstance="ei544" timeID="t37" />
+<TLINK eventInstanceID="ei546" lid="l29" relType="INCLUDES" relatedToEventInstance="ei512" />
+<TLINK lid="l30" relType="IDENTITY" relatedToTime="t30" timeID="t38" />
+<TLINK eventInstanceID="ei550" lid="l31" relType="DURING" relatedToTime="t38" signalID="s76" />
+<TLINK eventInstanceID="ei547" lid="l32" relType="BEFORE" relatedToTime="t38" />
+<TLINK eventInstanceID="ei551" lid="l33" relType="IS_INCLUDED" relatedToTime="t39" />
+<TLINK lid="l34" relType="IDENTITY" relatedToTime="t30" timeID="t39" />
+<TLINK eventInstanceID="ei552" lid="l35" relType="IS_INCLUDED" relatedToTime="t38" />
+
+<SLINK eventInstanceID="ei554" lid="l36" relType="MODAL" subordinatedEventInstance="ei555" />
+<SLINK eventInstanceID="ei552" lid="l37" relType="FACTIVE" subordinatedEventInstance="ei553" />
+<SLINK eventInstanceID="ei553" lid="l38" relType="EVIDENTIAL" subordinatedEventInstance="ei554" />
+<SLINK eventInstanceID="ei512" lid="l39" relType="EVIDENTIAL" subordinatedEventInstance="ei513" />
+<SLINK eventInstanceID="ei514" lid="l40" relType="FACTIVE" subordinatedEventInstance="ei515" />
+<SLINK eventInstanceID="ei516" lid="l41" relType="FACTIVE" subordinatedEventInstance="ei515" />
+<SLINK eventInstanceID="ei518" lid="l42" relType="MODAL" subordinatedEventInstance="ei520" />
+<SLINK eventInstanceID="ei519" lid="l43" relType="MODAL" subordinatedEventInstance="ei520" />
+<SLINK eventInstanceID="ei520" lid="l44" relType="FACTIVE" subordinatedEventInstance="ei521" />
+<SLINK eventInstanceID="ei527" lid="l45" relType="MODAL" subordinatedEventInstance="ei529" />
+<SLINK eventInstanceID="ei530" lid="l46" relType="FACTIVE" subordinatedEventInstance="ei531" />
+<SLINK eventInstanceID="ei533" lid="l47" relType="MODAL" subordinatedEventInstance="ei534" />
+<SLINK eventInstanceID="ei534" lid="l48" relType="MODAL" subordinatedEventInstance="ei541" />
+<SLINK eventInstanceID="ei534" lid="l49" relType="MODAL" subordinatedEventInstance="ei542" />
+<SLINK eventInstanceID="ei535" lid="l50" relType="MODAL" subordinatedEventInstance="ei537" />
+<SLINK eventInstanceID="ei536" lid="l51" relType="MODAL" subordinatedEventInstance="ei537" />
+<SLINK eventInstanceID="ei537" lid="l52" relType="MODAL" subordinatedEventInstance="ei538" />
+<SLINK eventInstanceID="ei538" lid="l53" relType="MODAL" subordinatedEventInstance="ei539" />
+<SLINK eventInstanceID="ei539" lid="l54" relType="FACTIVE" subordinatedEventInstance="ei540" />
+<SLINK eventInstanceID="ei545" lid="l55" relType="FACTIVE" subordinatedEventInstance="ei546" />
+<SLINK eventInstanceID="ei547" lid="l56" relType="MODAL" subordinatedEventInstance="ei548" />
+<SLINK eventInstanceID="ei547" lid="l57" relType="MODAL" subordinatedEventInstance="ei549" />
+<SLINK eventInstanceID="ei550" lid="l58" relType="FACTIVE" subordinatedEventInstance="ei551" />
+<SLINK eventInstanceID="ei544" lid="l59" relType="FACTIVE" subordinatedEventInstance="ei545" />
+<SLINK eventInstanceID="ei543" lid="l60" relType="FACTIVE" subordinatedEventInstance="ei545" />
+
+</TimeML>
