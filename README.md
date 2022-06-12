@@ -12,6 +12,6 @@ the new generated datasets with RLINKS are found in The Datasets Folder, in Time
 
 scripts are provided in Jupyter Notebooks, in which all required function to run the whole code are in the same file.
 
-- Get_relation_tml_*.ipynb: to extract relations from datasets and save them in CSV files (Raw data without annotation).
+- Get_relation_*.ipynb: to extract relations from datasets and save them in CSV files (Raw data without annotation) with different configurations for different datasets formats.
 - generate LINKS.ipynb: extract all pairs of events and the relation between them from CSV annotated files.
 
