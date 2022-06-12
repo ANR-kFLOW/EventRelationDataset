@@ -1,7 +1,0 @@
-We both annotate:
-- first 50 each in timebank
-
-0 = no relation
-1 = correct
-2 = correct but reverse
-3 = different kind of relation (written in notes)
