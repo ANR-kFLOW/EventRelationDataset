@@ -279,4 +279,5 @@ He named no nations.
 <TLINK lid="l202" relType="BEFORE" relatedToEventInstance="ei5" timeID="t2" />
 <TLINK lid="l203" relType="BEFORE" relatedToEventInstance="ei7" timeID="t2" />
 
-<RLINK eventInstanceID="ei30" lid="l204" relType="cause" relatedEventInstance="ei29" /><RLINK eventInstanceID="ei67" lid="l205" relType="cause" relatedEventInstance="ei65" /></TimeML>
+<RLINK eventInstanceID="ei30" lid="l204" relType="cause" relatedEventInstance="ei29" />
+<RLINK eventInstanceID="ei67" lid="l205" relType="cause" relatedEventInstance="ei65" /></TimeML>
